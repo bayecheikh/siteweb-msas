@@ -1,22 +1,30 @@
 <template>
-    <div class="support-area pt-60 pb-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p class="card-title text-blue">Le Volume du Financement  par piliers et par région (en F.CFA)</p>
-                    <div class="">
-                        <p class="custom-title-slider">Le financement de la santé</p>
-                        <hr class="custom-hr">
-                        <p class="custom-text-slider">
-                            C’est l’apport de ressources financières aux prestataires
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 m-0 p-0" style="background-image: url('/img/slider/slide1.png');background-repeat: no-repeat; background-size: cover; min-height: 300px;">
-                </div>
+
+    <div class="">
+        <div class="row align-items-center pt-30 pb-30 pl-100 d-flex justify-content-start">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 class="card-title text-blue custom-title">Le Volume du Financement  par piliers et par région (en F.CFA)</h1>
+            </div>
+        </div>
+        <div class="row align-items-start d-flex">
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-0">
+                <div class="custom-top-card pt-3 pb-3 pl-100">Tous les piliers : <span class="custom-chiffre">20 000 000 000</span></div>
+                <ul class="list-group list-group-flush pl-100">
+                    <li class="list-group-item pl-0">Gouvernance du systeme de santé</li>
+                    <li class="list-group-item pl-0">Infrastructures et équipements</li>
+                    <li class="list-group-item pl-0">Prestation de services</li>
+                    <li class="list-group-item pl-0">Financement Santé Action sociale</li>
+                    <li class="list-group-item pl-0">Gestion des produits de santé</li>
+                    <li class="list-group-item pl-0">Ressources humaines en santé</li>
+                    <li class="list-group-item pl-0">Gestion des ressources sanitaires</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 m-0 p-0" style="background-color: #5e99f2;background-repeat: no-repeat; background-size: cover; min-height: 300px;">
+                <img src="/img/senegal-svg-map.svg" height="400" alt="carte senegal">
             </div>
         </div>
     </div>
+
 </template>
 
 <script>
@@ -52,23 +60,11 @@
     };
 </script>
 <style scoped>
-.height-100{
-    height: 100% !important;
-    box-shadow: 0px -6px 22px 0 #e9ecef;
-    padding: 14px;
-}
 .custom-title{
     font-weight: 600;
-    color: #1f8389;
 }
-.custom-sub-title{
-    font-weight: 500;
-    color: #1f8389;
-    font-size: 20px;
-}
-.text-blue {
-    font-weight: 600;
-    font-size: 17px;
-    color: #3378e1;
+.custom-top-card{
+  box-shadow: -3px 1px 11px -9px;
+  margin-bottom: 10px;
 }
 </style>

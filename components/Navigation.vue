@@ -79,7 +79,5 @@
     }
 </script>
 <style scoped>
-.main-menu nav ul li ul.mega-menu {
-  margin-left: -100%;
-}
+
 </style>

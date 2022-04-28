@@ -2,3 +2,110 @@
 .container{
     max-width: 1350px !important;
 }
+.custom-container{
+    padding-left: 130px !important;
+    padding-right: 130px !important;
+}
+.main-menu nav ul li ul.mega-menu {
+    margin-left: -100%;
+  }
+.height-100{
+    height: 100% !important;
+    box-shadow: 0px -6px 22px 0 #e9ecef;
+    padding: 14px;
+}
+.custom-title{
+    font-weight: 600;
+    color: #3378e1;
+    font-size: 24px;
+}
+.custom-sub-title{
+    font-weight: 500;
+    color: #3378e1;
+    font-size: 20px;
+}
+.text-blue {
+    font-weight: 600;
+    color: #3378e1;
+}
+.custom-title-slider{
+    font-weight: 500;
+    text-align: left;
+    line-height: 36px;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    transform: translate3d(0px, 0px, 0px);
+    transform-origin: 50% 50% 0px;
+}
+.custom-text-slider{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.bg-slide-1 {
+  background-color: #3378e1;
+  //background-image: url("/img/slider/bg-slider-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.custom-hr{ 
+    height: 5px; 
+    background-color: rgb(255, 255, 255); 
+    width: 100px; transition: none 0s ease 0s; 
+    text-align: left; 
+    line-height: 60px; 
+    border-width: 1px 0px 0px; 
+    padding: 0px; 
+    letter-spacing: 0px; 
+    font-weight: 600; 
+    font-size: 14px;
+}
+.custom-hr:not([size]) {
+    height: 5px;
+  }
+.slider-btn a {
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 19px 50px 21px;
+}
+.slider-btn a:hover {
+  background-color: #3378e1;
+}
+.btn-hover a::after, .btn-hover button::after {
+  width: 0;
+  left: auto;
+  right: 0;
+  background: #fff;
+}
+.custom-nav{
+    color:#fff !important
+}
+.swiper-button-prev{
+  left: 30px !important;
+}
+.swiper-button-next{
+    right: 50px !important;
+  }
+.slider-btn a{
+  padding: 14px 50px 14px !important;
+}
+.main-menu nav ul li > a {
+    text-transform: uppercase;
+}
+.custom-chiffre {
+border: solid 1px #5e99f2;
+padding: 6px;
+    padding-right: 6px;
+    padding-left: 6px;
+padding-left: 30px;
+padding-right: 30px;
+background-color: #eef3f7;
+color: #3378e1;
+font-weight: 600;
+font-size: 20px;
+margin: 30px;
+}
