@@ -1,11 +1,10 @@
 <template>
     <div class="slider-area nav-style-1">
-        <swiper :options="swiperOption">
-            <swiper-slide v-for="(item,i) in sliders" :key="i" class="single-slider slider-height-1 bg-green bg-slide-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="slider-content slider-animation-1">
+        <swiper :options="swiperOption" class="row">
+            <swiper-slide v-for="(item,i) in sliders" :key="i" class="single-slider col-12 bg-green bg-slide-1">
+                    <div class="row d-flex">
+                        <div class="col-lg-6 col-md-6 col-sm-12 pl-130 pt-50 pb-50 pr-80">
+                            <!-- <div class="slider-animation-1">
                                 <p class="custom-title-slider">{{item.title}}</p>
                                 <hr class="custom-hr">
                                 <p class="custom-text-slider">
@@ -14,15 +13,21 @@
                                 <div class="slider-btn btn-hover">
                                     <n-link :to="item.field_url">EN SAVOIR</n-link>
                                 </div>
+                            </div> -->
+                            <div class="slider-animation-1">
+                                <p class="custom-title-slider">Le financement de la santé</p>
+                                <hr class="custom-hr">
+                                <p class="custom-text-slider">
+                                    C’est l’apport de ressources financières aux prestataires pour leur permettre de se procurer les ressources réelles nécessaires à la production des soins et des services ou en d’autres termes, c’est l’apport d’argent destiné à financer les activités du secteur sanitaire. Le financement de la santé fait appel à trois fonctions dont la collecte de fonds auprès de différentes sources (par exemple les gouvernements, les ménages, les entreprises, les donateurs), leur mise en commun afin de partager le risque financier entre de plus grands groupes au sein de la population, et leur utilisation pour le paiement des services fournis par les prestataires publics et privés de soins de santé (OMS, 2010).
+                                </p>
+                                <div class="slider-btn btn-hover">
+                                    <n-link :to="'/'">EN SAVOIR</n-link>
+                                </div>
                             </div>
                         </div>
-                        <!-- <div class="col-sm-6">
-                            <div class="slider-single-img slider-img-animation">
-                                <img src="/img/slider/single-slide-1.png" alt="image">
-                            </div>
-                        </div> -->
+                        <div class="col-lg-6 col-md-6 col-sm-12 m-0 p-0" style="background-image: url('/img/slider/slide1.png');background-repeat: no-repeat; background-size: cover; min-height: 300px;">
+                        </div>
                     </div>
-                </div>
             </swiper-slide>
            
             <!-- Swiper Navigation Start -->
@@ -134,5 +139,11 @@
 }
 .custom-nav{
     color:#fff !important
+}
+.swiper-button-prev{
+  left: 30px !important;
+}
+.slider-btn a{
+  padding: 14px 50px 14px !important;
 }
 </style>

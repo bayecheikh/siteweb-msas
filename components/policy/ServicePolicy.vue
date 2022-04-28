@@ -1,30 +1,18 @@
 <template>
     <div class="support-area pt-60 pb-90">
         <div class="container">
-            <div class="row justify-content-center mb-30">
-                <div class="col-lg-12 col-sm-12">
-                  <h1 class="card-title custom-title">Principales missions</h1>
-                  <p class="card-text">Lorum Ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit sagittis mi, eu tincidunt mauris placerat a. Lorum Ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit sagittis mi, eu tincidunt mauris placerat a.</p>  
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-12 mt-0" v-for="(item, index) in missions" :key="index">
-                    <div class="blog-wrap-2 mb-0 height-100">   
-                        <div class="card-body">
-                            <n-link :to="`/missions/`+item.nid">
-                                <h2 class="card-title custom-sub-title">{{item.title}}</h2>
-                            </n-link>
-                            <n-link :to="`/missions/`+item.nid">
-                                <p class="card-text pb-10">{{item.field_description_box}}</p>
-                            </n-link>
-                            <n-link :to="`/missions/`+item.nid">
-                                <img class="card-img-top" :src="siteUrl+item.field_image_d_illustration" alt="image">
-                            </n-link>
-                        </div>
-                        <!-- <n-link :to="`/missions/`+item.nid" class="btn btn-success">
-                            Lire la suite
-                        </n-link> -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p class="card-title text-blue">Le Volume du Financement  par piliers et par région (en F.CFA)</p>
+                    <div class="">
+                        <p class="custom-title-slider">Le financement de la santé</p>
+                        <hr class="custom-hr">
+                        <p class="custom-text-slider">
+                            C’est l’apport de ressources financières aux prestataires
+                        </p>
                     </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 m-0 p-0" style="background-image: url('/img/slider/slide1.png');background-repeat: no-repeat; background-size: cover; min-height: 300px;">
                 </div>
             </div>
         </div>
@@ -77,5 +65,10 @@
     font-weight: 500;
     color: #1f8389;
     font-size: 20px;
+}
+.text-blue {
+    font-weight: 600;
+    font-size: 17px;
+    color: #3378e1;
 }
 </style>
