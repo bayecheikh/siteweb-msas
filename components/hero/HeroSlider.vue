@@ -3,7 +3,7 @@
         <swiper :options="swiperOption" class="row">
             <swiper-slide v-for="(item,i) in sliders" :key="i" class="single-slider col-12 bg-green bg-slide-1">
                     <div class="row d-flex">
-                        <div class="col-lg-6 col-md-6 col-sm-12 custom-container pt-50 pb-50">
+                        <div class="col-lg-5 col-md-5 col-sm-12 custom-container pt-50 pb-50">
                             <!-- <div class="slider-animation-1">
                                 <p class="custom-title-slider">{{item.title}}</p>
                                 <hr class="custom-hr">
@@ -25,7 +25,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 m-0 p-0" style="background-image: url('/img/slider/slide1.png');background-repeat: no-repeat; background-size: cover; min-height: 300px;">
+                        <div class="col-lg-7 col-md-7 col-sm-12 m-0 p-0" style="background-image: url('/img/slider/slide1.png');background-repeat: no-repeat; background-size: cover; min-height: 300px;">
                         </div>
                     </div>
             </swiper-slide>

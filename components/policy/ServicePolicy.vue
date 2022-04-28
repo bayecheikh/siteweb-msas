@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="row align-items-start d-flex">
-            <div class="col-lg-6 col-md-6 col-sm-12 mr-0">
+            <div class="col-lg-5 col-md-5 col-sm-12 mr-0">
                 <div class="custom-top-card pt-3 pb-3 pl-100">Tous les piliers : <span class="custom-chiffre">20 000 000 000</span></div>
                 <ul class="list-group list-group-flush pl-100">
                     <li class="list-group-item pl-0">Gouvernance du systeme de santé</li>
@@ -19,7 +19,7 @@
                     <li class="list-group-item pl-0">Gestion des ressources sanitaires</li>
                 </ul>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 m-0 p-0" style="background-color: #5e99f2;background-repeat: no-repeat; background-size: cover; min-height: 300px;">
+            <div class="col-lg-7 col-md-7 col-sm-12 m-0 p-0 d-flex justify-content-center" style="background-color: #5e99f2;background-repeat: no-repeat; background-size: cover; min-height: 300px;">
                 <img src="/img/senegal-svg-map.svg" height="400" alt="carte senegal">
             </div>
         </div>
