@@ -20,7 +20,7 @@
         },
         head() {
             return {
-                title: 'Agence cadre de vie'
+                title: 'Ministère de la santé et de l\'action sociale'
             }
         },
     };

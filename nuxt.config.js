@@ -8,7 +8,7 @@ export default {
     // Global page headers (https://go.nuxtjs.dev/config-head)
     head: {
         title: 'MSAS - Ministère de la santé et de l\'action sociale',
-        titleTemplate: 'ACVDT | %s',
+        titleTemplate: 'MSAS | %s',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
