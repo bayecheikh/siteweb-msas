@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="row align-items-start d-flex">
-            <div class="col-lg-5 col-md-5 col-sm-12 mr-0">
+            <div class="col-lg-5 col-md-5 col-sm-12 mr-0 pr-0">
                 <div class="custom-top-card pt-3 pb-3 pl-100">Tous les piliers : <span class="custom-chiffre">20 000 000 000</span></div>
                 <ul class="list-group list-group-flush pl-100">
                     <li class="list-group-item pl-0">Gouvernance du systeme de santé</li>

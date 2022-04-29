@@ -7,7 +7,7 @@ export default {
     
     // Global page headers (https://go.nuxtjs.dev/config-head)
     head: {
-        title: 'ACVDT - Agence du cadre de vie',
+        title: 'MSAS - Ministère de la santé et de l\'action sociale',
         titleTemplate: 'ACVDT | %s',
         meta: [
             { charset: 'utf-8' },
