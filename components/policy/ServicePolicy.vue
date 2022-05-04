@@ -1010,6 +1010,19 @@
             return {
                 siteUrl:process.env.siteUrl,
                 missions: [],
+                typeFinancements:[
+                    {
+                        id:1,
+                        libelle:'Gouvernance du systeme de santé',
+                    }
+                ],
+                stats:[
+                    {
+                        id:'gambie',
+                        title:'Gambie',
+                        chiffre:20000
+                    }
+                ],
                 title: '',
                 id: '',
                 isHovering:false,
@@ -1064,11 +1077,13 @@ path:hover {
 .description {
   pointer-events: none;
   position: absolute;
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
-  background: white;
-  padding: 10px 15px 20px;
+  background: rgba(255, 255, 255, 0.795);
+  padding: 50px;
+  padding-top: 15px;
   z-index: 5;
+  height: 30px;
   line-height: 30px;
   margin: 0 auto;
   color: #21669e;
@@ -1078,7 +1093,6 @@ path:hover {
   -ms-transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  display: block;
 }
 .description.active {
   display: block;
@@ -1086,6 +1100,8 @@ path:hover {
 .description:after {
   content: "";
   position: absolute;
+  left: 50%;
+  top: 100%;
   width: 0;
   height: 0;
   margin-left: -10px;
