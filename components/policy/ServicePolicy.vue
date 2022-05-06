@@ -1053,7 +1053,7 @@
                     </div>
                     <div class="col-md-9 col-lg-9 col-sm-12 custom-card-box">
                         <div class="box d-flex flex-column align-items-start">
-                            <BarChart :data="barChartData" :options="barChartOptions" :height="250"/>
+                            <BarChart :data="barChartData" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
                         </div>                       
                     </div>
 
@@ -1149,7 +1149,7 @@ import BarChart from "~/components/BarChart.vue";
                             beginAtZero: true
                         },
                         gridLines: {
-                            display: true
+                            display: false
                         }
                         }],
                         xAxes: [{
@@ -1162,7 +1162,7 @@ import BarChart from "~/components/BarChart.vue";
                         display: false
                     },
                     responsive: true,
-                    maintainAspectRatio: true
+                    maintainAspectRatio: false
                 },
             }
         },
@@ -1281,5 +1281,8 @@ path:hover {
 }
 .border-right {
   border-right: 1px;
+}
+.box{
+    width: 100%;
 }
 </style>
