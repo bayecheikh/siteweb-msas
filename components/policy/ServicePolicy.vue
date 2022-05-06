@@ -1044,9 +1044,9 @@
             </div>
             <div class="row align-items-start d-flex">
                 <div class="col-5 align-items-start d-flex flex-column">
-                    <p class="card-title text-blue custom-title">MOBILISATION DES RESSOURCES</p>
+                    <p class="card-title text-blue">MOBILISATION DES RESSOURCES</p>
                     <p>Elle est un processus intégré comprenant la planification stratégique pour absorber les écarts de financement, l’identification des opportunités sur la base d’une analyse de l’environnement externe et des capacités internes</p>
-                    <a class="btn btn-outline-primary" href="#">Lire plus</a>
+                    <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
                 </div>
                 <div class="col-7 container">
                     <BarChart :data="barChartData" :options="barChartOptions" :height="400" />
@@ -1263,5 +1263,8 @@ path:hover {
 
 .links {
   padding-top: 15px;
+}
+.custom-text-btn{
+    font-size: 14px !important;
 }
 </style>
