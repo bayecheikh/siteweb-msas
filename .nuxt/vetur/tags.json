@@ -5,6 +5,9 @@
   "Activites": {
     "description": "Auto imported from components/Activites.vue"
   },
+  "BarChart": {
+    "description": "Auto imported from components/BarChart.js"
+  },
   "BlogItem": {
     "description": "Auto imported from components/BlogItem.vue"
   },
@@ -163,6 +166,9 @@
   },
   "PolicyServicePolicyTwo": {
     "description": "Auto imported from components/policy/ServicePolicyTwo.vue"
+  },
+  "PolicyStatistiques": {
+    "description": "Auto imported from components/policy/Statistiques.vue"
   },
   "ProductDetailsWrapper": {
     "description": "Auto imported from components/product/ProductDetailsWrapper.vue"
