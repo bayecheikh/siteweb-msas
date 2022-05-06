@@ -57,8 +57,7 @@
 <script>
     export default {
         components: {
-            Navigation: () => import("@/components/Navigation"),
-            MiniCart: () => import("@/components/MiniCart"),
+            Navigation: () => import("@/components/Navigation")
         },
 
         props: ['containerClass'],
