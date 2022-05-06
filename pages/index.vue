@@ -14,8 +14,6 @@
             HeaderWithTopbar: () => import('@/components/HeaderWithTopbar'),
             HeroSlider: () => import('@/components/hero/HeroSlider'),
             ServicePolicy: () => import('@/components/policy/ServicePolicy'),
-            ProductWrapper: () => import('@/components/product/ProductWrapper'),
-            BlogWrapper: () => import('@/components/BlogWrapper'),
             TheFooter: () => import('@/components/TheFooter'),
         },
         head() {

@@ -36,20 +36,10 @@
 <script>
     export default {
         components: {
-            Navigation: () => import("@/components/Navigation"),
-            MiniCart: () => import("@/components/MiniCart"),
+            Navigation: () => import("@/components/Navigation")
         },
 
         computed: {
-            cartItemCount() {
-                return this.$store.getters.cartItemCount
-            },
-            wishlistItemCount() {
-                return this.$store.getters.wishlistItemCount
-            },
-            compareItemCount() {
-                return this.$store.getters.compareItemCount
-            }
         },
 
         data() {

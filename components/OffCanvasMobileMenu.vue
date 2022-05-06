@@ -25,7 +25,7 @@
                         </li>
                         <li>
                             <i class="fa fa-envelope"></i>
-                            <a href="mailto:info@agencecadredevie.com">info@agencecadredevie.com</a>
+                            <a href="mailto:info@agencecadredevie.com">info@msas.com</a>
                         </li>
                     </ul>
                 </div>
