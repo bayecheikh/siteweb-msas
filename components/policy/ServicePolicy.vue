@@ -1036,14 +1036,32 @@
                 </div>
             </div>
         </div>
+        <div class="row align-items-center pt-30 pb-30 pl-100 d-flex justify-content-start">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 class="card-title text-blue custom-title">Les indicateurs du financement de la Santé</h1>
+            </div>
+        </div>
+        <div class="row align-items-center d-flex">
+            <div class="col-5 align-items-center d-flex flex-column">
+                <h2 class="card-title text-blue custom-title">Titre</h2>
+                <p>Lorum ipsum dolor</p>
+                <a class="btn btn-outline-primary" href="#">En savoir</a>
+            </div>
+            <div class="col-7 container">
+                <BarChart :data="barChartData" :options="barChartOptions" :height="400" />
+            </div>
+
+        </div>
     </div>
 
 </template>
 
 <script>
+import BarChart from "~/components/BarChart.vue";
     export default {
+        components: { BarChart },
         mounted: function() {
-            this.getListMission()
+            //this.getListMission()
         },
         computed:{
             styles: function(){
@@ -1074,7 +1092,68 @@
                 id: '',
                 isHovering:false,
                 x:10,
-                y:0
+                y:0,
+                barChartData: {
+                    labels: ["Entité-01", "Entité-02", "Entité-03", "Entité-04", "Entité-05", "Entité-06", "Entité-07", "Entité-08", "Entité-09",
+                        "Entité-10", "Entité-11", "Entité-12"
+                    ],
+                    datasets: [{
+                        label: 'Evolution mobilisation engagement pour le financement de la santé au Sénégal',
+                        borderWidth: 1,
+                        backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)',
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)',
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                        ],
+                        pointBorderColor: '#2554FF',
+                        data: [12, 19, 3, 5, 2, 3, 20, 3, 5, 6, 2, 1]
+                    }]
+                },
+                barChartOptions: {
+                   scales: {
+                        yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        },
+                        gridLines: {
+                            display: true
+                        }
+                        }],
+                        xAxes: [{
+                        gridLines: {
+                            display: false
+                        }
+                        }]
+                    },
+                    legend: {
+                        display: true
+                    },
+                    responsive: true,
+                    maintainAspectRatio: false
+                },
             }
         },
 
@@ -1156,5 +1235,30 @@ path:hover {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid white;
+}
+.title {
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: block;
+  font-weight: 400;
+  font-size: 100px;
+  color: #2E495E;
+  letter-spacing: 1px;
+  font-size: 6em;
+}
+.green {
+  color: #00C48D;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 1em;
+  color: #2E495E;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
 }
 </style>
