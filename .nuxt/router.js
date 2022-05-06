@@ -32,6 +32,7 @@ const _b9f7b202 = () => interopDefault(import('..\\pages\\shop-grid-two-column.v
 const _814db590 = () => interopDefault(import('..\\pages\\shop-list-full-width.vue' /* webpackChunkName: "pages/shop-list-full-width" */))
 const _31d3ea6d = () => interopDefault(import('..\\pages\\shop-list-standard.vue' /* webpackChunkName: "pages/shop-list-standard" */))
 const _4ddbdc36 = () => interopDefault(import('..\\pages\\terms-conditions.vue' /* webpackChunkName: "pages/terms-conditions" */))
+const _822a8578 = () => interopDefault(import('..\\pages\\testchart.vue' /* webpackChunkName: "pages/testchart" */))
 const _ff3ab086 = () => interopDefault(import('..\\pages\\wishlist.vue' /* webpackChunkName: "pages/wishlist" */))
 const _92f4f94c = () => interopDefault(import('..\\pages\\blog\\blog-right-sidebar.vue' /* webpackChunkName: "pages/blog/blog-right-sidebar" */))
 const _edf9d374 = () => interopDefault(import('..\\pages\\blog\\blog-without-sidebar.vue' /* webpackChunkName: "pages/blog/blog-without-sidebar" */))
@@ -175,6 +176,10 @@ export const routerOptions = {
     path: "/terms-conditions",
     component: _4ddbdc36,
     name: "terms-conditions"
+  }, {
+    path: "/testchart",
+    component: _822a8578,
+    name: "testchart"
   }, {
     path: "/wishlist",
     component: _ff3ab086,
