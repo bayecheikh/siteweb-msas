@@ -3,7 +3,7 @@
     <div class="">
         <div class="row align-items-center pt-30 pb-30 pl-100 d-flex justify-content-start">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h1 class="card-title text-blue custom-title">Le Volume du Financement  par piliers et par région (en F.CFA)</h1>
+                <p class="card-title text-blue custom-title">Le Volume du Financement  par piliers et par région (en F.CFA)</p>
             </div>
         </div>
         <div class="row align-items-start d-flex">
@@ -1037,22 +1037,29 @@
             </div>
         </div>
         <div class="container">
-            <div class="row align-items-center pt-30 pb-30 d-flex justify-content-start">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <h1 class="card-title text-blue custom-title">Les indicateurs du financement de la Santé</h1>
-            </div>
-            </div>
-            <div class="row align-items-start d-flex">
-                <div class="col-5 align-items-start d-flex flex-column">
-                    <p class="card-title text-blue">MOBILISATION DES RESSOURCES</p>
-                    <p>Elle est un processus intégré comprenant la planification stratégique pour absorber les écarts de financement, l’identification des opportunités sur la base d’une analyse de l’environnement externe et des capacités internes</p>
-                    <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
+            <div class="row align-items-start pt-30 pb-30 d-flex justify-content-start">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <p class="col-lg-12 col-md-12 col-sm-12 card-title text-blue custom-title">Les indicateurs du financement de la Santé</p>
                 </div>
-                <div class="col-7 container">
-                    <BarChart :data="barChartData" :options="barChartOptions" :height="400" />
-                </div>
+            </div>
+            <div class="container">
+                <div class="row align-items-start d-flex">
+                    <div class="col-md-3 col-lg-3 col-sm-12 custom-card-box border-right">
+                        <div class="box d-flex flex-column align-items-start">
+                            <p class="card-title text-blue">MOBILISATION DES RESSOURCES</p>
+                            <p>Elle est un processus intégré comprenant la planification stratégique pour absorber les écarts de financement, l’identification des opportunités sur la base d’une analyse de l’environnement externe et des capacités internes</p>
+                            <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-lg-9 col-sm-12 custom-card-box">
+                        <div class="box d-flex flex-column align-items-start">
+                            <BarChart :data="barChartData" :options="barChartOptions" :height="250"/>
+                        </div>                       
+                    </div>
 
+                </div>
             </div>
+            
         </div>
         
     </div>
@@ -1152,10 +1159,10 @@ import BarChart from "~/components/BarChart.vue";
                         }]
                     },
                     legend: {
-                        display: true
+                        display: false
                     },
                     responsive: true,
-                    maintainAspectRatio: false
+                    maintainAspectRatio: true
                 },
             }
         },
@@ -1266,5 +1273,13 @@ path:hover {
 }
 .custom-text-btn{
     font-size: 14px !important;
+}
+.custom-card-box {
+  border: solid 2px #99A9B4;
+  padding: 27px;
+  max-height: 100%;
+}
+.border-right {
+  border-right: 1px;
 }
 </style>
