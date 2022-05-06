@@ -8,6 +8,7 @@ You can directly use them in pages and other components without the need to impo
 
 - `<AboutMission>` | `<about-mission>` (components/AboutMission.vue)
 - `<Activites>` | `<activites>` (components/Activites.vue)
+- `<BarChart>` | `<bar-chart>` (components/BarChart.js)
 - `<BlogItem>` | `<blog-item>` (components/BlogItem.vue)
 - `<BlogItemStyleTwo>` | `<blog-item-style-two>` (components/BlogItemStyleTwo.vue)
 - `<BlogSidebar>` | `<blog-sidebar>` (components/BlogSidebar.vue)
@@ -61,6 +62,7 @@ You can directly use them in pages and other components without the need to impo
 - `<PolicyServicePolicyFour>` | `<policy-service-policy-four>` (components/policy/ServicePolicyFour.vue)
 - `<PolicyServicePolicyThree>` | `<policy-service-policy-three>` (components/policy/ServicePolicyThree.vue)
 - `<PolicyServicePolicyTwo>` | `<policy-service-policy-two>` (components/policy/ServicePolicyTwo.vue)
+- `<PolicyStatistiques>` | `<policy-statistiques>` (components/policy/Statistiques.vue)
 - `<ProductDetailsWrapper>` | `<product-details-wrapper>` (components/product/ProductDetailsWrapper.vue)
 - `<ProductGridItem>` | `<product-grid-item>` (components/product/ProductGridItem.vue)
 - `<ProductGridItemTwo>` | `<product-grid-item-two>` (components/product/ProductGridItemTwo.vue)
