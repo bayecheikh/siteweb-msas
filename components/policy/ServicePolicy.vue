@@ -1036,22 +1036,25 @@
                 </div>
             </div>
         </div>
-        <div class="row align-items-center pt-30 pb-30 pl-100 d-flex justify-content-start">
+        <div class="container">
+            <div class="row align-items-center pt-30 pb-30 d-flex justify-content-start">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <h1 class="card-title text-blue custom-title">Les indicateurs du financement de la Santé</h1>
             </div>
-        </div>
-        <div class="row align-items-center d-flex">
-            <div class="col-5 align-items-center d-flex flex-column">
-                <h2 class="card-title text-blue custom-title">Titre</h2>
-                <p>Lorum ipsum dolor</p>
-                <a class="btn btn-outline-primary" href="#">En savoir</a>
             </div>
-            <div class="col-7 container">
-                <BarChart :data="barChartData" :options="barChartOptions" :height="400" />
-            </div>
+            <div class="row align-items-center d-flex">
+                <div class="col-5 align-items-start d-flex flex-column">
+                    <p class="card-title text-blue custom-title">MOBILISATION DES RESSOURCES</p>
+                    <p>Elle est un processus intégré comprenant la planification stratégique pour absorber les écarts de financement, l’identification des opportunités sur la base d’une analyse de l’environnement externe et des capacités internes</p>
+                    <a class="btn btn-outline-primary" href="#">Lire plus</a>
+                </div>
+                <div class="col-7 container">
+                    <BarChart :data="barChartData" :options="barChartOptions" :height="400" />
+                </div>
 
+            </div>
         </div>
+        
     </div>
 
 </template>
