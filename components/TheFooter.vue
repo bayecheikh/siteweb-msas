@@ -19,9 +19,9 @@
                         </div>
                         <div class="footer-list">
                             <ul>
-                                <li><n-link to="/">Qui sommes-nous ?</n-link></li>
-                                <li><n-link to="/">Decret/Statut</n-link></li>
-                                <li><n-link to="/">Oraganigramme</n-link></li>
+                                <li><n-link to="/">Accueil</n-link></li>
+                                <li><n-link to="/">Financement</n-link></li>
+                                <li><n-link to="/">Indicateurs</n-link></li>
                             </ul>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
                         <div class="footer-list">
                             <ul>
                                 <li><n-link to="/">Marchés public</n-link></li>
-                                <li><n-link to="/">Comment postuler à une demande</n-link></li>
+                                <li><n-link to="/">Présidence de la république</n-link></li>
                                 <li><n-link to="/">FAQs</n-link></li>
                             </ul>
                         </div>
