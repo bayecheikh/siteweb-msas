@@ -7,8 +7,8 @@ export { default as OffCanvasMobileMenu } from '../..\\components\\OffCanvasMobi
 export { default as ResponsiveMobileMenu } from '../..\\components\\ResponsiveMobileMenu.vue'
 export { default as TheFooter } from '../..\\components\\TheFooter.vue'
 export { default as TheHeader } from '../..\\components\\TheHeader.vue'
-export { default as SlidersHeroSlider } from '../..\\components\\sliders\\HeroSlider.vue'
 export { default as SectionsServicePolicy } from '../..\\components\\sections\\ServicePolicy.vue'
+export { default as SlidersHeroSlider } from '../..\\components\\sliders\\HeroSlider.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

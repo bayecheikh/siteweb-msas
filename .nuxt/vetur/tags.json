@@ -26,10 +26,10 @@
   "TheHeader": {
     "description": "Auto imported from components/TheHeader.vue"
   },
-  "SlidersHeroSlider": {
-    "description": "Auto imported from components/sliders/HeroSlider.vue"
-  },
   "SectionsServicePolicy": {
     "description": "Auto imported from components/sections/ServicePolicy.vue"
+  },
+  "SlidersHeroSlider": {
+    "description": "Auto imported from components/sliders/HeroSlider.vue"
   }
 }
