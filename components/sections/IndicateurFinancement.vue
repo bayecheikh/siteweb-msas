@@ -3,11 +3,11 @@
         <div class="container bg-white">
         <div class="row align-items-start pt-30 pb-30 d-flex justify-content-start">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <p class="col-lg-12 col-md-12 col-sm-12 card-title text-blue custom-title">Les indicateurs du financement de la Santé</p>
+                <p class="card-title text-blue custom-title">Les indicateurs du financement de la Santé</p>
             </div>
         </div>
         <div class="container">
-            <div class="row align-items-start d-flex">
+            <div class="row align-items-start d-flex pb-10">
                 <div class="col-md-3 col-lg-3 col-sm-12 custom-card-box border-right">
                     <div class="box d-flex flex-column align-items-start">
                         <p class="card-title text-blue">MOBILISATION DES RESSOURCES</p>
@@ -22,6 +22,7 @@
                 </div>
 
             </div>
+            
         </div>
         
     </div>           
