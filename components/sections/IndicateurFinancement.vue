@@ -75,13 +75,18 @@ import BarChart from "~/components/BarChart.vue";
                         }
                         }],
                         xAxes: [{
+                            ticks: {
+                            fontSize: 10
+                        },
                         gridLines: {
                             display: false
                         }
                         }]
                     },
                     legend: {
-                        display: true
+                        display: true,
+                        position:'bottom',
+                        align: "start"
                     },
                     responsive: true,
                     maintainAspectRatio: false
