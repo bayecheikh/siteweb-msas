@@ -1,6 +1,6 @@
 <template>
 
-    <div class="custom-section">
+    <div class="mb-60">
         <div class="container">
             <div class="row align-items-center pt-30 pb-30 d-flex justify-content-start">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -8,7 +8,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white mb-60">            
+        <div class="bg-white">            
             <div class="row align-items-start d-flex">
                 <div class="col-lg-5 col-md-5 col-sm-12 mr-0 pr-0">
                     <div class="custom-top-card pt-3 pb-3 pl-100">Tous les piliers : <span class="custom-chiffre">20 000 000 000</span></div>
@@ -1038,45 +1038,13 @@
                     </div>
                 </div>
             </div>
-
-        </div>
-        <div class="bg-white">
-            <div class="container bg-white">
-            <div class="row align-items-start pt-30 pb-30 d-flex justify-content-start">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <p class="col-lg-12 col-md-12 col-sm-12 card-title text-blue custom-title">Les indicateurs du financement de la Santé</p>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row align-items-start d-flex">
-                    <div class="col-md-3 col-lg-3 col-sm-12 custom-card-box border-right">
-                        <div class="box d-flex flex-column align-items-start">
-                            <p class="card-title text-blue">MOBILISATION DES RESSOURCES</p>
-                            <p>Elle est un processus intégré comprenant la planification stratégique pour absorber les écarts de financement, l’identification des opportunités sur la base d’une analyse de l’environnement externe et des capacités internes</p>
-                            <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
-                        </div>
-                    </div>
-                    <div class="col-md-9 col-lg-9 col-sm-12 custom-card-box custom-bg-grey">
-                        <div class="box d-flex flex-column align-items-start">
-                            <BarChart :data="barChartData" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
-                        </div>                       
-                    </div>
-
-                </div>
-            </div>
-            
-        </div>           
-        </div>
-        
-        
+        </div>              
     </div>
 
 </template>
 
 <script>
-import BarChart from "~/components/BarChart.vue";
     export default {
-        components: { BarChart },
         mounted: function() {
             //this.getListMission()
         },
@@ -1092,85 +1060,11 @@ import BarChart from "~/components/BarChart.vue";
             return {
                 siteUrl:process.env.siteUrl,
                 missions: [],
-                typeFinancements:[
-                    {
-                        id:1,
-                        libelle:'Gouvernance du systeme de santé',
-                    }
-                ],
-                stats:[
-                    {
-                        id:'gambie',
-                        title:'Gambie',
-                        chiffre:20000
-                    }
-                ],
                 title: '',
                 id: '',
                 isHovering:false,
                 x:10,
-                y:0,
-                barChartData: {
-                    labels: ["Entité-01", "Entité-02", "Entité-03", "Entité-04", "Entité-05", "Entité-06", "Entité-07", "Entité-08", "Entité-09",
-                        "Entité-10", "Entité-11", "Entité-12"
-                    ],
-                    datasets: [{
-                        label: 'Evolution mobilisation engagement pour le financement de la santé au Sénégal',
-                        borderWidth: 1,
-                        backgroundColor: [
-                        'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
-                        'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)',
-                        'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
-                        'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
-                        ],
-                        borderColor: [
-                        'rgba(255,99,132,1)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)',
-                        'rgba(255,99,132,1)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
-                        ],
-                        pointBorderColor: '#2554FF',
-                        data: [12, 19, 3, 5, 2, 3, 20, 3, 5, 6, 2, 1]
-                    }]
-                },
-                barChartOptions: {
-                   scales: {
-                        yAxes: [{
-                        ticks: {
-                            beginAtZero: true
-                        },
-                        gridLines: {
-                            display: false
-                        }
-                        }],
-                        xAxes: [{
-                        gridLines: {
-                            display: false
-                        }
-                        }]
-                    },
-                    legend: {
-                        display: false
-                    },
-                    responsive: true,
-                    maintainAspectRatio: false
-                },
+                y:0
             }
         },
 
@@ -1300,5 +1194,8 @@ path:hover {
 }
 .bg-white{
     background-color: #fff;
+}
+.bg-grey{
+    background-color: #EEF3FB;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-white">
         <header class="header-area">
             <div class="header-top-area header-padding-2 d-none d-lg-block custom-bg">
                 <div class="container">
