@@ -49,43 +49,20 @@ import BarChart from "~/components/BarChart.vue";
                 siteUrl:process.env.siteUrl,
                 missions: [],
                 barChartData: {
-                    labels: ["Entité-01", "Entité-02", "Entité-03", "Entité-04", "Entité-05", "Entité-06", "Entité-07", "Entité-08", "Entité-09",
-                        "Entité-10", "Entité-11", "Entité-12"
+                    labels: ["Etat", "PTF", "Collectivités territoriales(CT)","ONG et associations","Secteur privé sanitaire","Secteur privé non sanitaire"
                     ],
-                    datasets: [{
-                        label: 'Evolution mobilisation engagement pour le financement de la santé au Sénégal',
-                        borderWidth: 1,
-                        backgroundColor: [
-                        'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
-                        'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)',
-                        'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
-                        'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
-                        ],
-                        borderColor: [
-                        'rgba(255,99,132,1)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)',
-                        'rgba(255,99,132,1)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
-                        ],
-                        pointBorderColor: '#2554FF',
-                        data: [12, 19, 3, 5, 2, 3, 20, 3, 5, 6, 2, 1]
-                    }]
+                    datasets: [
+                        {
+                            label: "Mobilisation",
+                            backgroundColor: "#0034CC",
+                            data: [3,7,4,4,5,6]
+                        },
+                        {
+                            label: "Engagement",
+                            backgroundColor: "#60C3FF",
+                            data: [4,3,4,3,4,6]
+                        }
+                    ]
                 },
                 barChartOptions: {
                    scales: {
@@ -94,7 +71,7 @@ import BarChart from "~/components/BarChart.vue";
                             beginAtZero: true
                         },
                         gridLines: {
-                            display: false
+                            display: true
                         }
                         }],
                         xAxes: [{
