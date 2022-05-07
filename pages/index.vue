@@ -12,8 +12,8 @@
         components: {
             //TheHeader: () => import('@/components/TheHeader'),
             HeaderWithTopbar: () => import('@/components/HeaderWithTopbar'),
-            HeroSlider: () => import('@/components/hero/HeroSlider'),
-            ServicePolicy: () => import('@/components/policy/ServicePolicy'),
+            HeroSlider: () => import('@/components/sliders/HeroSlider'),
+            ServicePolicy: () => import('@/components/sections/ServicePolicy'),
             TheFooter: () => import('@/components/TheFooter'),
         },
         head() {

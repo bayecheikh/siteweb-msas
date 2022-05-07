@@ -33,7 +33,7 @@
                         </div>
                         <div class="footer-list">
                             <ul>
-                                <li><n-link to="/">Marchés public</n-link></li>
+                                <li><n-link to="/">Assemblée nationale du Sénégal</n-link></li>
                                 <li><n-link to="/">Présidence de la république</n-link></li>
                                 <li><n-link to="/">FAQs</n-link></li>
                             </ul>

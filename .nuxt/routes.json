@@ -1,12 +1,5 @@
 [
   {
-    "name": "testchart",
-    "path": "/testchart",
-    "component": "C:\\\\xampp\\\\htdocs\\\\MASAS V2\\\\siteweb\\\\pages\\\\testchart.vue",
-    "chunkName": "pages/testchart",
-    "_name": "_822a8578"
-  },
-  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\xampp\\\\htdocs\\\\MASAS V2\\\\siteweb\\\\pages\\\\index.vue",
