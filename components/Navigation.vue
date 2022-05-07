@@ -34,7 +34,12 @@
                     {
                         url: '/',
                         title: 'Indicateurs'
-                    }
+                    },
+                    {
+                        url: '/',
+                        title: 'Dimansion de la santé'
+                    },
+                    
                 ]
             }
         },

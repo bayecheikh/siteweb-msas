@@ -26,14 +26,14 @@
                                 </n-link>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-5 col-sm-12 d-none d-lg-block">
+                        <div class="col-lg-6 col-md-6 col-sm-12 d-none d-lg-block">
                             <div class="main-menu">
                                 <nav>
                                     <Navigation />
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-between align-items-center">
+                        <div class="col-lg-3 col-md-3 col-sm-12 d-flex justify-content-between align-items-center">
                             <button class="btn btn-outline-primary custom-btn-outline-primary mr-2">DEMANDE D'INFORMATION</button>
                             <button class="btn btn-primary custom-btn-primary">SE CONNECTER</button>
                         </div>
