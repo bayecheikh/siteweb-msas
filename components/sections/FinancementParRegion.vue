@@ -11,7 +11,11 @@
         <div class="bg-white">            
             <div class="row align-items-start d-flex">
                 <div class="col-lg-5 col-md-5 col-sm-12 mr-0 pr-0">
-                    <div class="custom-top-card pt-3 pb-3 pl-100">Tous les piliers : <span class="custom-chiffre">20 000 000 000</span></div>
+                    <div class="custom-top-card pt-15 pb-15 pl-100 pr-15">
+                        <div class="custom-bloc-chiffre d-flex justify-content-between border-green bg-green">
+                            <span>Tous les piliers :</span> <span class="custom-chiffre text-green">20 000 000 000</span>
+                        </div>    
+                    </div>
                     <ul class="list-group list-group-flush pl-100">
                         <li class="list-group-item pl-0">Gouvernance du systeme de santé</li>
                         <li class="list-group-item pl-0">Infrastructures et équipements</li>
@@ -22,7 +26,7 @@
                         <li class="list-group-item pl-0">Gestion des ressources sanitaires</li>
                     </ul>
                 </div>
-                <div class="col-lg-7 col-md-7 col-sm-12 m-0 pt-30 pl-30 pb-30 d-flex justify-content-center" style="background-color: #5e99f2;background-repeat: no-repeat; background-size: cover; min-height: 300px;">
+                <div class="col-lg-7 col-md-7 col-sm-12 m-0 pt-15 pl-15 pb-30 d-flex justify-content-center" style="background-color: #5e99f2;background-repeat: no-repeat; background-size: cover; min-height: 300px;">
                     <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="161 55 933.8 684" style="enable-background:new 161 55 933.8 684; height:400px;" xml:space="preserve" preserveAspectRatio="xMidYMid meet"
                         pointer-events="auto">
@@ -1197,5 +1201,31 @@ path:hover {
 }
 .bg-grey{
     background-color: #EEF3FB;
+}
+.text-green{
+color: #00B42D;
+}
+.border-green{
+border: solid 1px #00B42D;
+}
+.bg-green{
+background-color: #00b42d12;
+}
+.custom-chiffre {
+font-weight: 600;
+font-size: 20px;
+}
+.custom-bloc-chiffre {
+padding: 6px;
+padding-right: 6px;
+padding-left: 6px;
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 0px;
+
+}
+.custom-top-card{
+  box-shadow: -3px 1px 11px -9px;
+  margin-bottom: 10px;
 }
 </style>
