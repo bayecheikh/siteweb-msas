@@ -81,7 +81,7 @@ import BarChart from "~/components/BarChart.vue";
                         }]
                     },
                     legend: {
-                        display: false
+                        display: true
                     },
                     responsive: true,
                     maintainAspectRatio: false
