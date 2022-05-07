@@ -15,5 +15,6 @@ You can directly use them in pages and other components without the need to impo
 - `<ResponsiveMobileMenu>` | `<responsive-mobile-menu>` (components/ResponsiveMobileMenu.vue)
 - `<TheFooter>` | `<the-footer>` (components/TheFooter.vue)
 - `<TheHeader>` | `<the-header>` (components/TheHeader.vue)
-- `<SectionsServicePolicy>` | `<sections-service-policy>` (components/sections/ServicePolicy.vue)
+- `<SectionsFinancementParRegion>` | `<sections-financement-par-region>` (components/sections/FinancementParRegion.vue)
+- `<SectionsIndicateurFinancement>` | `<sections-indicateur-financement>` (components/sections/IndicateurFinancement.vue)
 - `<SlidersHeroSlider>` | `<sliders-hero-slider>` (components/sliders/HeroSlider.vue)

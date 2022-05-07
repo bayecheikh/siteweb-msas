@@ -1,8 +1,9 @@
 <template>
-    <div class="home-page-wrapper">
+    <div class="home-page-wrapper bg-grey">
         <HeaderWithTopbar/>
         <HeroSlider />
-        <ServicePolicy />
+        <FinancementParRegion />
+        <IndicateurFinancement />
         <TheFooter />
     </div>
 </template>
@@ -10,10 +11,10 @@
 <script>
     export default {
         components: {
-            //TheHeader: () => import('@/components/TheHeader'),
             HeaderWithTopbar: () => import('@/components/HeaderWithTopbar'),
             HeroSlider: () => import('@/components/sliders/HeroSlider'),
-            ServicePolicy: () => import('@/components/sections/ServicePolicy'),
+            FinancementParRegion : () => import('@/components/sections/FinancementParRegion'),
+            IndicateurFinancement : () => import('@/components/sections/IndicateurFinancement'),
             TheFooter: () => import('@/components/TheFooter'),
         },
         head() {
