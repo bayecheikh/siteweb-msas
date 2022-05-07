@@ -22,11 +22,10 @@
                         <li class="list-group-item pl-0">Gestion des ressources sanitaires</li>
                     </ul>
                 </div>
-                <div class="col-lg-7 col-md-7 col-sm-12 m-0 p-0 d-flex justify-content-center" style="background-color: #5e99f2;background-repeat: no-repeat; background-size: cover; min-height: 300px;">
-                    <!-- <img src="/img/senegal-svg-map.svg" height="400" alt="carte senegal"> -->
+                <div class="col-lg-7 col-md-7 col-sm-12 m-0 pt-30 pl-30 pb-30 d-flex justify-content-center" style="background-color: #5e99f2;background-repeat: no-repeat; background-size: cover; min-height: 300px;">
                     <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="161 55 933.8 684" style="enable-background:new 161 55 933.8 684; height:400px;" xml:space="preserve" preserveAspectRatio="xMidYMid meet"
-            pointer-events="auto">
+                        pointer-events="auto">
                     <style type="text/css">                   
                         .st1{stroke:#000000;stroke-miterlimit:22.926;}
                     </style>
