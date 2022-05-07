@@ -7,11 +7,41 @@
             </div>
         </div>
         <div class="container">
-            <div class="row align-items-start d-flex pb-10">
+            <div class="row pb-10">
                 <div class="col-md-3 col-lg-3 col-sm-12 custom-card-box border-right">
                     <div class="box d-flex flex-column align-items-start">
                         <p class="card-title text-blue">MOBILISATION DES RESSOURCES</p>
                         <p>Elle est un processus intégré comprenant la planification stratégique pour absorber les écarts de financement, l’identification des opportunités sur la base d’une analyse de l’environnement externe et des capacités internes</p>
+                        <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-lg-9 col-sm-12 custom-card-box custom-bg-grey">
+                    <div class="box d-flex flex-column align-items-start">
+                        <BarChart :data="barChartData" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
+                    </div>                       
+                </div>
+
+            </div>
+            <div class="row pb-10">
+                <div class="col-md-3 col-lg-3 col-sm-12 custom-card-box border-right">
+                    <div class="box d-flex flex-column align-items-start">
+                        <p class="card-title text-blue">MISE EN COMMUN DES RESSOURCES</p>
+                        <p>La mise en commun permet de combiner les ressources financières de multiples sources pour partager le risque financier du coût des soins en assurant l’équité dans le financement, l’accès et l’utilisation des services.</p>
+                        <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-lg-9 col-sm-12 custom-card-box custom-bg-grey">
+                    <div class="box d-flex flex-column align-items-start">
+                        <BarChart :data="barChartData" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
+                    </div>                       
+                </div>
+
+            </div>
+            <div class="row pb-10">
+                <div class="col-md-3 col-lg-3 col-sm-12 custom-card-box border-right">
+                    <div class="box d-flex flex-column align-items-start">
+                        <p class="card-title text-blue">ACHAT DE SERVICES</p>
+                        <p>L’achat de service comprend l’allocation des ressources, les mécanismes de paiement, et la gestion des motivations financières à la fois des prestataires de service et des usagers. </p>
                         <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
                     </div>
                 </div>
