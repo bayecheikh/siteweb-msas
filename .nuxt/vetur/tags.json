@@ -26,6 +26,9 @@
   "TheHeader": {
     "description": "Auto imported from components/TheHeader.vue"
   },
+  "SectionsFinancementGlobal": {
+    "description": "Auto imported from components/sections/FinancementGlobal.vue"
+  },
   "SectionsFinancementParRegion": {
     "description": "Auto imported from components/sections/FinancementParRegion.vue"
   },
