@@ -1,7 +1,7 @@
 <template>
-    <footer class="footer-area bg-gray pt-100 pb-70">
+    <footer class="footer-area bg-blue-dark pt-20 pb-20">
         <div class="container">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-2 col-sm-4">
                     <div class="copyright mb-30">
                         <div class="footer-logo">
@@ -53,6 +53,17 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="col-10">
+                    <p class="text-white">DIRECTION DE LA PLANIFICATION DE LA RECHERCHE ET DES STATISTIQUES</p>
+                </div>
+                <div class="col-2 d-flex justify-content-between">
+                    <span class="text-white">Nous suivre sur : </span>
+                    <a href="#"><i class="fa fa-facebook text-white"></i></a>
+                    <a href="#"><i class="fa fa-twitter text-white"></i></a>
+                    <a href="#"><i class="fa fa-linkedin text-white"></i></a>
                 </div>
             </div>
         </div>
