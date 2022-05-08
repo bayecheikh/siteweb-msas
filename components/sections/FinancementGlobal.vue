@@ -2,81 +2,84 @@
 
     <div class="bg-blue">
         <div class="container">
-            <div class="row align-items-start pt-30 pb-30 d-flex justify-content-start">
+            <div class="row align-items-start pt-40 pb-25 d-flex justify-content-start">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <p class="text-white custom-title">Le Volume du Financement  global par sources</p>
+                    <hr class="custom-hr bg-white">
                 </div>
             </div>
             <div class="container">
                 <div class="row pb-25 d-flex justify-content-between">
-                    <div class="bg-white mb-3 col-2 p-0">
-                        <div class="card-header bg-white">Etat</div>
+                    <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
+                        <div class="card-header bg-white d-flex align-items-center min-height-65 text-grey font-weight-600 font-roboto">Etat</div>
                         <div class="card-body">
-                            <h5 class="card-title text-blue">12 000 000 000</h5>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
-                            </div>
-                            <p>Mobilisation</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
-                            </div>
-                            <p>Engagement</p>
+                            <h4 class="card-title text-blue mb-4 font-weight-600">12 000 000 000 FCFA</h4>
+                            <div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                                </div>
+                                <p class="text-grey font-weight-600 font-roboto size-12">Mobilisation</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-vert" role="progressbar" style="width: 100%;" aria-valuenow="1000" aria-valuemin="0" aria-valuemax="100">100%</div>    
+                                </div>
+                                <p class="text-grey font-weight-600 font-roboto size-12">Engagement</p>
+                            </div>        
                         </div>
                     </div>
-                    <div class="bg-white mb-3 col-2 p-0">
-                        <div class="card-header bg-white">Collectivités Territoriales(CT)</div>
+                    <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
+                        <div class="card-header bg-white d-flex align-items-center min-height-65 text-grey font-weight-600 font-roboto">Collectivités Territoriales(CT)</div>
                         <div class="card-body">
-                            <h5 class="card-title text-blue">6 000 000 000</h5>
+                            <h4 class="card-title text-blue mb-4 font-weight-600">6 000 000 000 FCFA</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                                <div class="progress-bar bg-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>    
                             </div>
-                            <p>Mobilisation</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Mobilisation</p>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                                <div class="progress-bar bg-jaune" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>    
                             </div>
-                            <p>Engagement</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Engagement</p>
                         </div>
                     </div>
-                    <div class="bg-white mb-3 col-2 p-0">
-                        <div class="card-header bg-white">Secteur privé</div>
+                    <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
+                        <div class="card-header bg-white d-flex align-items-center min-height-65 text-grey font-weight-600 font-roboto">Secteur privé</div>
                         <div class="card-body">
-                            <h5 class="card-title text-blue">3 000 000 000</h5>
+                            <h4 class="card-title text-blue mb-4 font-weight-600">3 000 000 000 FCFA</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                                <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
                             </div>
-                            <p>Mobilisation</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Mobilisation</p>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                                <div class="progress-bar bg-green" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>    
                             </div>
-                            <p>Engagement</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Engagement</p>
                         </div>
                     </div>
-                    <div class="bg-white mb-3 col-2 p-0">
-                        <div class="card-header bg-white">ONG et associations</div>
+                    <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
+                        <div class="card-header bg-white d-flex align-items-center min-height-65 text-grey font-weight-600 font-roboto">ONG et associations</div>
                         <div class="card-body">
-                            <h5 class="card-title text-blue">2 500 000 000</h5>
+                            <h4 class="card-title text-blue mb-4 font-weight-600">2 500 000 000 FCFA</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                                <div class="progress-bar bg-vert" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>    
                             </div>
-                            <p>Mobilisation</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Mobilisation</p>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                                <div class="progress-bar bg-vert" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>    
                             </div>
-                            <p>Engagement</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Engagement</p>
                         </div>
                     </div>
-                    <div class="bg-white mb-3 col-2 p-0">
-                        <div class="card-header bg-white">Partenaires techniques financiers(PTF)</div>
+                    <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
+                        <div class="card-header bg-white d-flex align-items-center min-height-65 text-grey font-weight-600 font-roboto">Partenaires techniques financiers(PTF)</div>
                         <div class="card-body">
-                            <h5 class="card-title text-blue">9 600 000 000</h5>
+                            <h4 class="card-title text-blue mb-4 font-weight-600">9 600 000 000 FCFA</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                                <div class="progress-bar bg-jaune" role="progressbar" style="width: 57%;" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">57%</div>    
                             </div>
-                            <p>Mobilisation</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Mobilisation</p>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                                <div class="progress-bar bg-vert" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>    
                             </div>
-                            <p>Engagement</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Engagement</p>
                         </div>
                     </div>
                 </div>

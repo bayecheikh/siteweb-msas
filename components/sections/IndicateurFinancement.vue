@@ -1,9 +1,10 @@
 <template>   
     <div class="bg-white">
         <div class="container bg-white">
-        <div class="row align-items-start pt-30 pb-30 d-flex justify-content-start">
+        <div class="row align-items-start pt-40 pb-25 d-flex justify-content-start">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <p class="text-blue custom-title">Le Volume du Financement  par dimensions et par sources</p>
+                <hr class="custom-hr bg-blue">
             </div>
         </div>
         <div class="container">
