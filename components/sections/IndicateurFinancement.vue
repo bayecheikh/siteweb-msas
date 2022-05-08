@@ -3,19 +3,19 @@
         <div class="container bg-white">
         <div class="row align-items-start pt-30 pb-30 d-flex justify-content-start">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <p class="card-title text-blue custom-title">Les indicateurs du financement de la Santé</p>
+                <p class="text-blue custom-title">Le Volume du Financement  par dimensions et par sources</p>
             </div>
         </div>
         <div class="container">
-            <div class="row pb-10">
-                <div class="col-md-3 col-lg-3 col-sm-12 custom-card-box border-right">
+            <div class="row pb-25">
+                <div class="col-md-4 col-lg-4 col-sm-12 custom-card-box border-right">
                     <div class="box d-flex flex-column align-items-start">
-                        <p class="card-title text-blue">MOBILISATION DES RESSOURCES</p>
+                        <p class="custom-sub-title text-blue">MOBILISATION DES RESSOURCES</p>
                         <p>Elle est un processus intégré comprenant la planification stratégique pour absorber les écarts de financement, l’identification des opportunités sur la base d’une analyse de l’environnement externe et des capacités internes</p>
                         <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
                     </div>
                 </div>
-                <div class="col-md-9 col-lg-9 col-sm-12 custom-card-box custom-bg-grey">
+                <div class="col-md-8 col-lg-8 col-sm-12 custom-card-box custom-bg-grey">
                     <div class="box d-flex flex-column align-items-start">
                         <BarChart :data="barChartData" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
                     </div>                       
@@ -23,14 +23,14 @@
 
             </div>
             <div class="row pb-10">
-                <div class="col-md-3 col-lg-3 col-sm-12 custom-card-box border-right">
+                <div class="col-md-4 col-lg-4 col-sm-12 custom-card-box border-right">
                     <div class="box d-flex flex-column align-items-start">
-                        <p class="card-title text-blue">MISE EN COMMUN DES RESSOURCES</p>
+                        <p class="custom-sub-title text-blue">MISE EN COMMUN DES RESSOURCES</p>
                         <p>La mise en commun permet de combiner les ressources financières de multiples sources pour partager le risque financier du coût des soins en assurant l’équité dans le financement, l’accès et l’utilisation des services.</p>
                         <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
                     </div>
                 </div>
-                <div class="col-md-9 col-lg-9 col-sm-12 custom-card-box custom-bg-grey">
+                <div class="col-md-8 col-lg-8 col-sm-12 custom-card-box custom-bg-grey">
                     <div class="box d-flex flex-column align-items-start">
                         <BarChart :data="barChartData" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
                     </div>                       
@@ -38,14 +38,14 @@
 
             </div>
             <div class="row pb-10">
-                <div class="col-md-3 col-lg-3 col-sm-12 custom-card-box border-right">
+                <div class="col-md-4 col-lg-4 col-sm-12 custom-card-box border-right">
                     <div class="box d-flex flex-column align-items-start">
-                        <p class="card-title text-blue">ACHAT DE SERVICES</p>
+                        <p class="custom-sub-title text-blue">ACHAT DE SERVICES</p>
                         <p>L’achat de service comprend l’allocation des ressources, les mécanismes de paiement, et la gestion des motivations financières à la fois des prestataires de service et des usagers. </p>
                         <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
                     </div>
                 </div>
-                <div class="col-md-9 col-lg-9 col-sm-12 custom-card-box custom-bg-grey">
+                <div class="col-md-8 col-lg-8 col-sm-12 custom-card-box custom-bg-grey">
                     <div class="box d-flex flex-column align-items-start">
                         <BarChart :data="barChartData" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
                     </div>                       
@@ -106,7 +106,7 @@ import BarChart from "~/components/BarChart.vue";
                         }],
                         xAxes: [{
                             ticks: {
-                            fontSize: 10
+                            fontSize: 8
                         },
                         gridLines: {
                             display: false
@@ -226,7 +226,7 @@ path:hover {
     font-size: 14px !important;
 }
 .custom-card-box {
-  border: solid 2px #99A9B4;
+  border: solid 2px #99A9B44A;
   padding: 27px;
   max-height: 100%;
 }
