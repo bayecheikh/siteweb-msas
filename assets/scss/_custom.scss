@@ -1,4 +1,7 @@
 // write your custom scss/css here
+body {
+  font-family: "Roboto" !important;
+}
 .container{
     max-width: 1350px !important;
 }
@@ -16,17 +19,14 @@
 }
 
 .custom-title{
-    font-weight: 600;
-    color: #3378e1;
-    font-size: 24px;
+    font-size: 25px;
+letter-spacing: 0px;
 }
 .custom-sub-title{
-    font-weight: 500;
-    color: #3378e1;
     font-size: 20px;
+letter-spacing: 0px;
 }
 .text-blue {
-    font-weight: 600;
     color: #3378e1;
 }
 .custom-title-slider{
@@ -50,8 +50,7 @@
   background-repeat: no-repeat;
 }
 .custom-hr{ 
-    height: 5px; 
-    background-color: rgb(255, 255, 255); 
+    height: 5px;  
     width: 100px; transition: none 0s ease 0s; 
     text-align: left; 
     line-height: 60px; 
@@ -60,6 +59,7 @@
     letter-spacing: 0px; 
     font-weight: 600; 
     font-size: 14px;
+    opacity: 1 !important;
 }
 .custom-hr:not([size]) {
     height: 5px;
@@ -97,12 +97,22 @@
 .main-menu nav ul li > a {
     text-transform: uppercase;
 }
-
+.main-menu nav ul li > a {
+  font-size: 12px;
+  color: #000;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  display: inline-block;
+  line-height: 94px;
+}
 .custom-section{
   background-color: #EEF3FB;
 }
 .bg-white{
   background-color: #fff;
+}
+.bg-blue{
+  background-color: #3378E1;
 }
 .bg-grey{
   background-color: #EEF3FB;

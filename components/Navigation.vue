@@ -37,7 +37,7 @@
                     },
                     {
                         url: '/',
-                        title: 'Dimansion de la santé'
+                        title: 'Dimensions de la santé'
                     },
                     
                 ]

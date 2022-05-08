@@ -16,7 +16,7 @@
                             </div> -->
                             <div class="slider-animation-1">
                                 <p class="custom-title-slider">Le financement de la santé, Une priorité pour tous les acteurs</p>
-                                <hr class="custom-hr">
+                                <hr class="custom-hr bg-white">
                                 <p class="custom-text-slider">
                                     C’est l’apport de ressources financières aux prestataires pour leur permettre de se procurer les ressources réelles nécessaires à la production des soins et des services ou en d’autres termes, c’est l’apport d’argent destiné à financer les activités du secteur sanitaire
                                 </p>
