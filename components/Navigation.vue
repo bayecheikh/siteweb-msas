@@ -29,12 +29,13 @@
                     },
                     {
                         url: '/',
-                        title: 'Financement'
+                        title: 'Indicateurs'
                     },
                     {
                         url: '/',
-                        title: 'Indicateurs'
+                        title: 'Financement'
                     },
+                    
                     {
                         url: '/',
                         title: 'Dimensions de la santé'

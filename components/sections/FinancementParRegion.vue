@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row align-items-center pt-40 pb-25 d-flex justify-content-start">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <p class="text-blue custom-title">Le Volume du Financement  par piliers et par région (en F.CFA)</p>
+                    <p class="text-blue custom-title font-weight-600">Le Volume du Financement  par piliers et par région (en F.CFA)</p>
                     <hr class="custom-hr bg-blue">
                 </div>
             </div>
@@ -13,18 +13,20 @@
             <div class="row align-items-start d-flex">
                 <div class="col-lg-5 col-md-5 col-sm-12 mr-0 pr-0">
                     <div class="custom-top-card pt-15 pb-15 pl-100 pr-15">
-                        <div class="custom-bloc-chiffre d-flex justify-content-between border-green bg-green">
-                            <span>Tous les piliers :</span> <span class="custom-chiffre text-green">20 000 000 000</span>
+                        <div class="custom-bloc-chiffre d-flex justify-content-evenly border-green bg-green">
+                            <span>Tous les piliers :</span> 
+                            <span class="custom-pourcent text-green"><i class="fa fa-arrow-circle-up bg-icon-green"></i> +4.7%</span> 
+                            <span class="custom-chiffre text-green">20 000 000 000</span>
                         </div>    
                     </div>
                     <ul class="list-group list-group-flush pl-100">
-                        <li class="list-group-item pl-0">Gouvernance du systeme de santé</li>
-                        <li class="list-group-item pl-0">Infrastructures et équipements</li>
-                        <li class="list-group-item pl-0">Prestation de services</li>
-                        <li class="list-group-item pl-0">Financement Santé Action sociale</li>
-                        <li class="list-group-item pl-0">Gestion des produits de santé</li>
-                        <li class="list-group-item pl-0">Ressources humaines en santé</li>
-                        <li class="list-group-item pl-0">Gestion des ressources sanitaires</li>
+                        <li class="list-group-item pl-0 font-weight-600 text-blue">Gouvernance du systeme de santé</li>
+                        <li class="list-group-item pl-0 font-weight-600">Infrastructures et équipements</li>
+                        <li class="list-group-item pl-0 font-weight-600 ">Prestation de services</li>
+                        <li class="list-group-item pl-0 font-weight-600">Financement Santé Action sociale</li>
+                        <li class="list-group-item pl-0 font-weight-600">Gestion des produits de santé</li>
+                        <li class="list-group-item pl-0 font-weight-600">Ressources humaines en santé</li>
+                        <li class="list-group-item pl-0 font-weight-600">Gestion des ressources sanitaires</li>
                     </ul>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12 m-0 pt-15 pl-15 pb-30 d-flex justify-content-center" style="background-color: #5e99f2;background-repeat: no-repeat; background-size: cover; min-height: 300px;">
