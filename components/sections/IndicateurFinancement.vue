@@ -22,7 +22,7 @@
                 </div>
 
             </div>
-            <div class="row pb-10">
+            <div class="row pb-25">
                 <div class="col-md-4 col-lg-4 col-sm-12 custom-card-box border-right">
                     <div class="box d-flex flex-column align-items-start">
                         <p class="custom-sub-title text-blue">MISE EN COMMUN DES RESSOURCES</p>
@@ -37,7 +37,7 @@
                 </div>
 
             </div>
-            <div class="row pb-10">
+            <div class="row pb-25">
                 <div class="col-md-4 col-lg-4 col-sm-12 custom-card-box border-right">
                     <div class="box d-flex flex-column align-items-start">
                         <p class="custom-sub-title text-blue">ACHAT DE SERVICES</p>
