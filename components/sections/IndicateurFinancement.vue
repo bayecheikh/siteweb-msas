@@ -13,7 +13,7 @@
                     <div class="box d-flex flex-column align-items-start">
                         <p class="custom-sub-title text-blue font-weight-600">MOBILISATION DES RESSOURCES</p>
                         <p>Elle est un processus intégré comprenant la planification stratégique pour absorber les écarts de financement, l’identification des opportunités sur la base d’une analyse de l’environnement externe et des capacités internes</p>
-                        <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
+                        <a class="btn btn-outline-primary custom-text-btn pl-4 pr-4" href="#">Lire plus</a>
                     </div>
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12 custom-card-box custom-bg-grey">
