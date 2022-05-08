@@ -4,6 +4,7 @@
         <HeroSlider />
         <FinancementParRegion />
         <IndicateurFinancement />
+        <FinancementGlobal />
         <TheFooter />
     </div>
 </template>
@@ -15,6 +16,7 @@
             HeroSlider: () => import('@/components/sliders/HeroSlider'),
             FinancementParRegion : () => import('@/components/sections/FinancementParRegion'),
             IndicateurFinancement : () => import('@/components/sections/IndicateurFinancement'),
+            FinancementGlobal : () => import('@/components/sections/FinancementGlobal'),
             TheFooter: () => import('@/components/TheFooter'),
         },
         head() {

@@ -26,8 +26,13 @@
   "TheHeader": {
     "description": "Auto imported from components/TheHeader.vue"
   },
+<<<<<<< HEAD
   "SlidersHeroSlider": {
     "description": "Auto imported from components/sliders/HeroSlider.vue"
+=======
+  "SectionsFinancementGlobal": {
+    "description": "Auto imported from components/sections/FinancementGlobal.vue"
+>>>>>>> dev
   },
   "SectionsFinancementParRegion": {
     "description": "Auto imported from components/sections/FinancementParRegion.vue"
