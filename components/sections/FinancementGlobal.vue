@@ -13,8 +13,11 @@
                     <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
                         <div class="card-header bg-white d-flex align-items-center min-height-65 text-grey font-weight-600 font-roboto">Etat</div>
                         <div class="card-body">
-                            <h4 class="card-title text-blue mb-4 font-weight-600">12 000 000 000 FCFA</h4>
                             <div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                                </div>
+                                <p class="text-grey font-weight-600 font-roboto size-12">Execution</p>
                                 <div class="progress">
                                     <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
                                 </div>
@@ -29,7 +32,10 @@
                     <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
                         <div class="card-header bg-white d-flex align-items-center min-height-65 text-grey font-weight-600 font-roboto">Collectivités Territoriales(CT)</div>
                         <div class="card-body">
-                            <h4 class="card-title text-blue mb-4 font-weight-600">6 000 000 000 FCFA</h4>
+                            <div class="progress">
+                                    <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                            </div>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Execute</p>
                             <div class="progress">
                                 <div class="progress-bar bg-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>    
                             </div>
@@ -43,7 +49,10 @@
                     <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
                         <div class="card-header bg-white d-flex align-items-center min-height-65 text-grey font-weight-600 font-roboto">Secteur privé</div>
                         <div class="card-body">
-                            <h4 class="card-title text-blue mb-4 font-weight-600">3 000 000 000 FCFA</h4>
+                            <div class="progress">
+                                    <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                            </div>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Execute</p>
                             <div class="progress">
                                 <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
                             </div>
@@ -57,7 +66,10 @@
                     <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
                         <div class="card-header bg-white d-flex align-items-center min-height-65 text-grey font-weight-600 font-roboto">ONG et associations</div>
                         <div class="card-body">
-                            <h4 class="card-title text-blue mb-4 font-weight-600">2 500 000 000 FCFA</h4>
+                            <div class="progress">
+                                    <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                            </div>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Execute</p>
                             <div class="progress">
                                 <div class="progress-bar bg-vert" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>    
                             </div>
@@ -71,7 +83,10 @@
                     <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
                         <div class="card-header bg-white d-flex align-items-center min-height-65 text-grey font-weight-600 font-roboto">Partenaires techniques financiers(PTF)</div>
                         <div class="card-body">
-                            <h4 class="card-title text-blue mb-4 font-weight-600">9 600 000 000 FCFA</h4>
+                            <div class="progress">
+                                    <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
+                            </div>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Execute</p>
                             <div class="progress">
                                 <div class="progress-bar bg-jaune" role="progressbar" style="width: 57%;" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">57%</div>    
                             </div>
