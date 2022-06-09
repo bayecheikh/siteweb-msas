@@ -13,11 +13,15 @@
             <div class="row align-items-start d-flex">
                 <div class="col-lg-5 col-md-5 col-sm-12 mr-0 pr-0">
                     <div class="custom-top-card pt-15 pb-15 pl-100 pr-15">
-                        <div class="custom-bloc-chiffre d-flex justify-content-evenly border-green bg-green">
+                        <!-- <div class="custom-bloc-chiffre d-flex justify-content-evenly border-green bg-green">
                             <span>Tous les piliers :</span> 
                             <span class="custom-pourcent text-green"><i class="fa fa-arrow-circle-up bg-icon-green"></i> +4.7%</span> 
                             <span class="custom-chiffre text-green">20 000 000 000</span>
-                        </div>    
+                        </div>  -->  
+                        <div class="custom-bloc-chiffre d-flex justify-content-evenly border-green bg-green">
+                            
+                            <span class="custom-chiffre text-green">Filtrer par pilier</span>
+                        </div>
                     </div>
                     <ul class="list-group list-group-flush pl-100">
                         <li class="list-group-item pl-0 font-weight-600 text-blue" v-for="(item,i) in this.piliers" :key="i">
@@ -997,9 +1001,7 @@
                         <br>
                         Mobilisation : {{mobilise}}
                     </div>
-                    <div class="descriptionPilier">
-                    {{this.titlePilier}}
-                    </div> 
+                    
                 </div>
                 
             </div>
