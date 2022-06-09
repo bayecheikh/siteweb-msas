@@ -18,7 +18,7 @@
                             <span class="custom-pourcent text-green"><i class="fa fa-arrow-circle-up bg-icon-green"></i> +4.7%</span> 
                             <span class="custom-chiffre text-green">20 000 000 000</span>
                         </div>  -->  
-                        <div class="custom-bloc-chiffre d-flex justify-content-evenly border-green bg-green">
+                        <div class="custom-bloc-chiffre border-green bg-green">
                             
                             <span class="custom-chiffre text-green">Filtrer par pilier</span>
                         </div>
