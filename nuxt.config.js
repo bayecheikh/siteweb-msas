@@ -59,7 +59,7 @@ export default {
     ],
 
     axios: {
-        baseURL: 'https://ip3dev.com/api-msas/public/api',
+        baseURL: 'https://msas.ip3dev.com/api-msas/public/api',
     },
 
     styleResources: {
@@ -79,7 +79,7 @@ export default {
     },
 
     env: {
-        baseUrl: 'https://ip3dev.com/api-msas/public/api',
-        siteUrl:'https://ip3dev.com'
+        baseUrl: 'https://msas.ip3dev.com/api-msas/public/api',
+        siteUrl:'https://msas.ip3dev.com/api-msas/public'
     }
 }
