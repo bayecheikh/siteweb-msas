@@ -1000,8 +1000,7 @@
                         Engagement : {{engagement}}
                         <br>
                         Mobilisation : {{mobilisation}}
-                        <br>
-                        Execution : {{execution}}
+                        
                     </div>
                     
                 </div>
@@ -1156,7 +1155,7 @@ path:hover {
   padding: 30px;
   padding-top: 10px;
   z-index: 5;
-  height: 160px;
+  height: 130px;
   line-height: 30px;
   margin: 0 auto;
   color: #ffffff;
