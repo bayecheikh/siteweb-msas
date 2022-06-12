@@ -1,5 +1,6 @@
 export { default as BarChart } from '../..\\components\\BarChart.vue'
 export { default as Breadcrumb } from '../..\\components\\Breadcrumb.vue'
+export { default as Demande } from '../..\\components\\Demande.vue'
 export { default as HeaderOffcanvasMenuWithTransparent } from '../..\\components\\HeaderOffcanvasMenuWithTransparent.vue'
 export { default as HeaderWithTopbar } from '../..\\components\\HeaderWithTopbar.vue'
 export { default as Navigation } from '../..\\components\\Navigation.vue'

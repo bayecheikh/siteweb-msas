@@ -8,6 +8,7 @@ You can directly use them in pages and other components without the need to impo
 
 - `<BarChart>` | `<bar-chart>` (components/BarChart.vue)
 - `<Breadcrumb>` | `<breadcrumb>` (components/Breadcrumb.vue)
+- `<Demande>` | `<demande>` (components/Demande.vue)
 - `<HeaderOffcanvasMenuWithTransparent>` | `<header-offcanvas-menu-with-transparent>` (components/HeaderOffcanvasMenuWithTransparent.vue)
 - `<HeaderWithTopbar>` | `<header-with-topbar>` (components/HeaderWithTopbar.vue)
 - `<Navigation>` | `<navigation>` (components/Navigation.vue)

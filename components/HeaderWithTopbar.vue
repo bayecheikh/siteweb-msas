@@ -34,7 +34,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 d-flex justify-content-between align-items-center">
-                            <button class="btn btn-outline-primary custom-btn-outline-primary mr-2">DEMANDE D'INFORMATION</button>
+                            <Demande />
                             <a class="btn btn-primary custom-btn-primary" target="_blank" href="https://admin-msas.vercel.app">SE CONNECTER</a>
                         </div>
                         <div class="col-lg-1 col-md-1 col-sm-12">
@@ -57,7 +57,8 @@
 <script>
     export default {
         components: {
-            Navigation: () => import("@/components/Navigation")
+            Navigation: () => import("@/components/Navigation"),
+            Demande: () => import('@/components/Demande'),
         },
 
         props: ['containerClass'],

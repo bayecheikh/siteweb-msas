@@ -5,6 +5,9 @@
   "Breadcrumb": {
     "description": "Auto imported from components/Breadcrumb.vue"
   },
+  "Demande": {
+    "description": "Auto imported from components/Demande.vue"
+  },
   "HeaderOffcanvasMenuWithTransparent": {
     "description": "Auto imported from components/HeaderOffcanvasMenuWithTransparent.vue"
   },
