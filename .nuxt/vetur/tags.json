@@ -5,6 +5,9 @@
   "Breadcrumb": {
     "description": "Auto imported from components/Breadcrumb.vue"
   },
+  "Demande": {
+    "description": "Auto imported from components/Demande.vue"
+  },
   "HeaderOffcanvasMenuWithTransparent": {
     "description": "Auto imported from components/HeaderOffcanvasMenuWithTransparent.vue"
   },
@@ -26,9 +29,6 @@
   "TheHeader": {
     "description": "Auto imported from components/TheHeader.vue"
   },
-  "SlidersHeroSlider": {
-    "description": "Auto imported from components/sliders/HeroSlider.vue"
-  },
   "SectionsFinancementGlobal": {
     "description": "Auto imported from components/sections/FinancementGlobal.vue"
   },
@@ -37,5 +37,8 @@
   },
   "SectionsIndicateurFinancement": {
     "description": "Auto imported from components/sections/IndicateurFinancement.vue"
+  },
+  "SlidersHeroSlider": {
+    "description": "Auto imported from components/sliders/HeroSlider.vue"
   }
 }

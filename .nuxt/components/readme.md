@@ -8,6 +8,7 @@ You can directly use them in pages and other components without the need to impo
 
 - `<BarChart>` | `<bar-chart>` (components/BarChart.vue)
 - `<Breadcrumb>` | `<breadcrumb>` (components/Breadcrumb.vue)
+- `<Demande>` | `<demande>` (components/Demande.vue)
 - `<HeaderOffcanvasMenuWithTransparent>` | `<header-offcanvas-menu-with-transparent>` (components/HeaderOffcanvasMenuWithTransparent.vue)
 - `<HeaderWithTopbar>` | `<header-with-topbar>` (components/HeaderWithTopbar.vue)
 - `<Navigation>` | `<navigation>` (components/Navigation.vue)
@@ -15,7 +16,7 @@ You can directly use them in pages and other components without the need to impo
 - `<ResponsiveMobileMenu>` | `<responsive-mobile-menu>` (components/ResponsiveMobileMenu.vue)
 - `<TheFooter>` | `<the-footer>` (components/TheFooter.vue)
 - `<TheHeader>` | `<the-header>` (components/TheHeader.vue)
-- `<SlidersHeroSlider>` | `<sliders-hero-slider>` (components/sliders/HeroSlider.vue)
 - `<SectionsFinancementGlobal>` | `<sections-financement-global>` (components/sections/FinancementGlobal.vue)
 - `<SectionsFinancementParRegion>` | `<sections-financement-par-region>` (components/sections/FinancementParRegion.vue)
 - `<SectionsIndicateurFinancement>` | `<sections-indicateur-financement>` (components/sections/IndicateurFinancement.vue)
+- `<SlidersHeroSlider>` | `<sliders-hero-slider>` (components/sliders/HeroSlider.vue)
