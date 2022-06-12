@@ -25,7 +25,7 @@
                     </div>
                     <ul class="list-group list-group-flush pl-100">
                         <li class="list-group-item pl-0 font-weight-600 text-blue" v-for="(item,i) in this.piliers" :key="i">
-                            <button :class="'text-pilier'+isActive==item.id?'active':''" @click="investissementByPilier(item)">
+                            <button :class="'text-pilier '+ (isActivePilier==item.id?'activePilier':'')" @click="investissementByPilier(item)">
                                     {{item.nom_pilier}}
                             </button>    
                         </li>
@@ -306,9 +306,9 @@
                         c2.6-1.5,2.8-3.1,5.1-4.2c2-0.9,4.2-1.4,6.5-1.4c6.2-0.1,7.1-3.4,11.4-4.3c1.6-0.3,3.1-0.8,4.6-1.3c2.4-0.7,4.5-1.6,7-1
                         c0.3,0.1,5.4,2,5.6,2.1c5.6,3.5,6.7,1,8.6,1.9c1.4,0.6,2.3,3,4.6,4.5c3.9,2.5,3.2,0.6,4.3,5.6c0.3,1.5,1.9,1.6,3.2,1.4
                         c0.6-0.1,3.5-0.3,3.6-0.3c3.1-0.8,3.4-0.2,6.2-2C372.6,327.4,374.1,325.6,374.9,323.5L374.9,323.5z"/>
-                    <path id="tamba" 
+                    <path id="kaolack" 
                     class="lan" 
-                            title="Tamba" 
+                            title="Kaolack" 
                             pointer-events="all" 
                             style="cursor: pointer;" 
                             @mouseover="getInfo"
@@ -995,11 +995,13 @@
                     
                     </svg>
                     <div class="description" v-if="isHovering==true" v-bind:style="styles">
-                        {{title}}
+                        <span style="font-weight:600; font-size:26px;text-transform:capitalize;">{{title}}</span>
                         <br>
                         Engagement : {{engagement}}
                         <br>
-                        Mobilisation : {{mobilise}}
+                        Mobilisation : {{mobilisation}}
+                        <br>
+                        Execution : {{execution}}
                     </div>
                     
                 </div>
@@ -1026,7 +1028,7 @@
         },
         data() {
             return {
-                isActive:0,
+                isActivePilier:0,
                 titlePilier:'',
                 siteUrl:process.env.siteUrl,
                 piliers: [],
@@ -1035,8 +1037,10 @@
                 sources: [],
                 missions: [],
                 title: '',
+                montantGlobal:0,
                 engagement: 0,
-                mobilise: 0,
+                mobilisation: 0,
+                execution: 0,
                 id: '',
                 isHovering:false,
                 x:10,
@@ -1052,18 +1056,33 @@
                 this.x = e.pageX;
                 this.y = e.pageY;
 
-                let mtnEngagement = 0
-                let mtnMobilise = 0
-                let mtnExecute = 0
                 this.engagement = 0
+                this.mobilisation = 0
+                this.execution = 0
+
                 let tablefinancement = this.investissementByPiliers?.filter(investissement => investissement.region[0].slug === slugRegion)
                  
-                let execute = tablefinancement?.map((item)=>{
-                    console.log('List Invest Region***********',item )
-                     item.ligne_financements.map((item)=>{
-                       this.engagement = this.engagement + parseInt(item.montantBienServiceExecutes)  
-                     })
+                let montants = tablefinancement?.map((item)=>{
+                //console.log('List Invest Region***********',item )
+                    item.ligne_financements.map((item)=>{
+                    //Engagement
+                    let montantBienServicePrevus = parseInt(item.montantBienServicePrevus)
+                    let montantInvestissementPrevus = parseInt(item.montantInvestissementPrevus)
+                    this.engagement = this.engagement + montantBienServicePrevus + montantInvestissementPrevus
+
+                    //Mobilisation
+                    let montantBienServiceMobilises = parseInt(item.montantBienServiceMobilises)
+                    let montantInvestissementMobilises = parseInt(item.montantInvestissementMobilises)
+                    this.mobilisation = this.mobilisation + montantBienServiceMobilises + montantInvestissementMobilises
+
+                    //Execution
+                    let montantBienServiceExecutes = parseInt(item.montantBienServiceExecutes)
+                    let montantInvestissementExecutes = parseInt(item.montantInvestissementExecutes)
+                    this.execution = this.execution + montantBienServiceExecutes + montantInvestissementExecutes
+
                     })
+                })
+                console.log('Montant engagement : +++ ',this.engagement)
                 
             },
             getListPilier(){
@@ -1082,7 +1101,7 @@
                 });
             },
             investissementByPilier(pilier){
-                this.isActive = pilier.id
+                this.isActivePilier = pilier.id
                 this.titlePilier = pilier.nom_pilier
                 this.progress=true
                 this.$axios.$get('/investissementByPilier/'+pilier.id)
@@ -1132,12 +1151,12 @@ path:hover {
   pointer-events: none;
   position: absolute;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
   background: rgba(0, 0, 0, 0.555);
   padding: 30px;
   padding-top: 10px;
   z-index: 5;
-  height: 120px;
+  height: 160px;
   line-height: 30px;
   margin: 0 auto;
   color: #ffffff;
@@ -1246,7 +1265,7 @@ margin-top: 0px;
 .text-pilier{
     font-size: 22px !important;
 }
-.active{
-    color: blue !important;
+.activePilier{
+    color: #3378e1 !important;
 }
 </style>
