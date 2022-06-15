@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12 custom-card-box custom-bg-grey">
                     <div class="box d-flex flex-column align-items-start">
-                        <BarChart :data="barChartData" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
+                        <BarChart :data="barChartData1" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
                     </div>                       
                 </div>
 
@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12 custom-card-box custom-bg-grey">
                     <div class="box d-flex flex-column align-items-start">
-                        <BarChart :data="barChartData" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
+                        <BarChart :data="barChartData2" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
                     </div>                       
                 </div>
 
@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12 custom-card-box custom-bg-grey">
                     <div class="box d-flex flex-column align-items-start">
-                        <BarChart :data="barChartData" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
+                        <BarChart :data="barChartData3" :options="barChartOptions" :styles="{height: '250px', position: 'relative',width:'100%'}"/>
                     </div>                       
                 </div>
 
@@ -79,7 +79,9 @@ import BarChart from "~/components/BarChart.vue";
             return {
                 siteUrl:process.env.siteUrl,
                 missions: [],
-                barChartData: {
+
+                //MOBILISATION DES RESSOURCES
+                barChartData1: {
                     labels: ["Etat", "PTF", "Collectivités territoriales(CT)","ONG et associations","Secteur privé sanitaire","Secteur privé non sanitaire"
                     ],
                     datasets: [
@@ -90,7 +92,7 @@ import BarChart from "~/components/BarChart.vue";
                         },
                         {
                             label: "Engagement",
-                            backgroundColor: "#60C3FF",
+                            backgroundColor: "#728CD8",
                             data: [4,3,4,3,4,6]
                         }
                     ]
@@ -121,6 +123,42 @@ import BarChart from "~/components/BarChart.vue";
                     },
                     responsive: true,
                     maintainAspectRatio: false
+                },
+
+                //MISE EN COMMUN DES RESSOURCES
+                barChartData2: {
+                    labels: ["Etat", "PTF", "Collectivités territoriales(CT)","ONG et associations","Secteur privé sanitaire","Secteur privé non sanitaire"
+                    ],
+                    datasets: [
+                        {
+                            label: "Mobilisation",
+                            backgroundColor: "#60C3FF",
+                            data: [3,7,4,4,5,6]
+                        },
+                        {
+                            label: "Engagement",
+                            backgroundColor: "#A2D4F2",
+                            data: [4,3,4,3,4,6]
+                        }
+                    ]
+                },
+
+                //ACHAT DE SERVICES
+                barChartData3: {
+                    labels: ["Etat", "PTF", "Collectivités territoriales(CT)","ONG et associations","Secteur privé sanitaire","Secteur privé non sanitaire"
+                    ],
+                    datasets: [
+                        {
+                            label: "Mobilisation",
+                            backgroundColor: "#3378E1",
+                            data: [3,7,4,4,5,6]
+                        },
+                        {
+                            label: "Engagement",
+                            backgroundColor: "#8BAEE3",
+                            data: [4,3,4,3,4,6]
+                        }
+                    ]
                 },
             }
         },

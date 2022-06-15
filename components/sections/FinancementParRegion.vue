@@ -998,9 +998,9 @@
                     <div class="description" v-if="isHovering==true" v-bind:style="styles">
                         <span style="font-weight:600; font-size:26px;text-transform:capitalize; font-family:Arial, Helvetica, sans-serif;">{{title}}</span>
                         <br>
-                        <span>Engagement : </span><span style="font-weight:600; color: #5e99f2; font-family:Arial, Helvetica, sans-serif;">{{Number(engagement).toLocaleString()}}</span>
+                        <span>Engagement : </span><span style="font-weight:600; color: #12F44B; font-family:Arial, Helvetica, sans-serif;">{{Number(engagement).toLocaleString()}}</span>
                         <br>
-                        <span>Mobilisation : </span><span style="font-weight:600; color:#5e99f2; font-family:Arial, Helvetica, sans-serif;">{{Number(mobilisation).toLocaleString()}}</span>                   
+                        <span>Mobilisation : </span><span style="font-weight:600; color:#12F44B; font-family:Arial, Helvetica, sans-serif;">{{Number(mobilisation).toLocaleString()}}</span>                   
                     </div>
                     <div class="my-2">
                         <span style="font-weight:600; font-size:18px; color: #fff; text-transform:capitalize; font-family:Arial, Helvetica, sans-serif;">Pilier : {{titlePilier}} </span> 
