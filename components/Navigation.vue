@@ -1,16 +1,16 @@
 <template>
     <ul>
         <li v-for='(link, i) in menus' :key='i'>
-            <nuxt-link :to="link.url">{{ link.title }}<i :class="link.submenu && 'fa fa-angle-down'"></i></nuxt-link>
+            <a @click.prevent="goToSection(link.idSection)" :href="link.url">{{ link.title }}<i :class="link.submenu && 'fa fa-angle-down'"></i></a>
             <ul class="mega-menu mega-menu-padding row" v-if="link.submenu">
                 <li v-for='(link, i) in link.submenu' :key='i' >
-                    <nuxt-link :to="link.url" v-if="!link.submenu">{{ link.title }}<i :class="link.submenu && 'fa fa-angle-down'"></i></nuxt-link>
+                    <a :href="link.url" v-if="!link.submenu">{{ link.title }}<i :class="link.submenu && 'fa fa-angle-down'"></i></a>
                     <ul v-if="link.submenu">
                         <li class="mega-menu-title">
-                            <nuxt-link :to="link.url">{{ link.title }}</nuxt-link>
+                            <a :href="link.url">{{ link.title }}</a>
                         </li>
                         <li v-for='(link, i) in link.submenu' :key='i'>
-                            <nuxt-link :to="link.url">{{ link.title }}</nuxt-link>
+                            <a :href="link.url">{{ link.title }}</a>
                         </li>
                     </ul>
                 </li>
@@ -25,21 +25,27 @@
                 menus: [
                     {
                         url: '/',
-                        title: 'Accueil'
+                        title: 'Accueil',
+                        idSection: 'accueil',
                     },
                     {
                         url: '/',
-                        title: 'Indicateurs'
-                    },
-                    {
-                        url: '/',
-                        title: 'Financement'
+                        title: 'Financement',
+                        idSection: 'financements',
                     },
                     
                     {
                         url: '/',
-                        title: 'Dimensions de la santé'
+                        title: 'Dimensions de la santé',
+                        idSection: 'dimensionsdelasante',
                     },
+                    {
+                        url: '/',
+                        title: 'Indicateurs',
+                        idSection: 'indicateurs',
+                    },
+                    
+                    
                     
                 ]
             }
@@ -81,6 +87,14 @@
                     }
                 })
             })
+        },
+        methods: {
+            goToSection(value) {
+                document.getElementById(value).scrollIntoView({
+                    behavior: "smooth",
+                    top:8
+                });
+            },
         }
     }
 </script>

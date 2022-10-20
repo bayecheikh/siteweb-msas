@@ -1,5 +1,5 @@
 <template>   
-    <div class="bg-white">
+    <div class="bg-white" id="dimensionsdelasante">
         <div class="container bg-white">
         <div class="row align-items-start pt-40 pb-25 d-flex justify-content-start">
             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -13,7 +13,7 @@
                     <div class="box d-flex flex-column align-items-start">
                         <p class="custom-sub-title text-blue font-weight-600">MOBILISATION DES RESSOURCES</p>
                         <p>Elle est un processus intégré comprenant la planification stratégique pour absorber les écarts de financement, l’identification des opportunités sur la base d’une analyse de l’environnement externe et des capacités internes</p>
-                        <a class="btn btn-outline-primary custom-text-btn pl-4 pr-4" href="#">Lire plus</a>
+                        <!--<a class="btn btn-outline-primary custom-text-btn pl-4 pr-4" href="#">Lire plus</a>-->
                     </div>
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12 custom-card-box custom-bg-grey">
@@ -28,7 +28,7 @@
                     <div class="box d-flex flex-column align-items-start">
                         <p class="custom-sub-title text-blue font-weight-600">MISE EN COMMUN DES RESSOURCES</p>
                         <p>La mise en commun permet de combiner les ressources financières de multiples sources pour partager le risque financier du coût des soins en assurant l’équité dans le financement, l’accès et l’utilisation des services.</p>
-                        <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
+                        <!--<a class="btn btn-outline-primary custom-text-btn pl-4 pr-4" href="#">Lire plus</a>-->
                     </div>
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12 custom-card-box custom-bg-grey">
@@ -43,7 +43,7 @@
                     <div class="box d-flex flex-column align-items-start">
                         <p class="custom-sub-title text-blue font-weight-600">ACHAT DE SERVICES</p>
                         <p>L’achat de service comprend l’allocation des ressources, les mécanismes de paiement, et la gestion des motivations financières à la fois des prestataires de service et des usagers. </p>
-                        <a class="btn btn-outline-primary custom-text-btn" href="#">Lire plus</a>
+                        <!--<a class="btn btn-outline-primary custom-text-btn pl-4 pr-4" href="#">Lire plus</a>-->
                     </div>
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12 custom-card-box custom-bg-grey">

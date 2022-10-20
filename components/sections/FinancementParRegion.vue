@@ -1,6 +1,6 @@
 <template>
 
-    <div class="mb-60">
+    <div class="mb-60" id="financements">
         <div class="container">
             <div class="row align-items-center pt-40 pb-25 d-flex justify-content-start">
                 <div class="col-lg-12 col-md-12 col-sm-12">

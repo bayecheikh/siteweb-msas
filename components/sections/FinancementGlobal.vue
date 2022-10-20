@@ -1,6 +1,6 @@
 <template>   
 
-    <div class="bg-blue">
+    <div class="bg-blue" id="indicateurs">
         <div class="container">
             <div class="row align-items-start pt-40 pb-25 d-flex justify-content-start">
                 <div class="col-lg-12 col-md-12 col-sm-12">

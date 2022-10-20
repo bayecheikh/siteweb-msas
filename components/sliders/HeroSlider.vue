@@ -1,5 +1,5 @@
 <template>
-    <div class="slider-area nav-style-1">
+    <div class="slider-area nav-style-1" id="accueil">
         <swiper :options="swiperOption" class="row">
             <swiper-slide class="single-slider col-12 bg-green bg-slide-1">
                     <div class="row d-flex">
@@ -21,7 +21,7 @@
                                     C’est l’apport de ressources financières aux prestataires pour leur permettre de se procurer les ressources réelles nécessaires à la production des soins et des services ou en d’autres termes, c’est l’apport d’argent destiné à financer les activités du secteur sanitaire
                                 </p>
                                 <div class="slider-btn">
-                                    <n-link :to="'/'">EN SAVOIR</n-link>
+                                    <a @click.prevent="goToSection('indicateurs')" href="/">EN SAVOIR</a>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
 <script>
     export default {
         mounted: function() {
-            this.getListSlider()
+            //this.getListSlider()
         },
         methods: {
             getListSlider(){
@@ -61,7 +61,13 @@
                 }).finally(() => {
                     console.log('Requette envoyé ')
                 });
-            }
+            },
+            goToSection(value) {
+                document.getElementById(value).scrollIntoView({
+                    behavior: "smooth",
+                    top:8
+                });
+            },
         },
         data() {
             return {
