@@ -73,17 +73,18 @@
                 this.$modal.show('demande');
             },
             submitDemande(){
+                
                 this.load=true
                 console.log('Données demande formulaire ++++++: ', {...this.modelPreRempli})
                 this.$axios.$post('/ajoutDemande',{...this.modelPreRempli})
                 .then(async (response) => {
-                    //this.$toast.success(response.message).goAway(2000)
-                    console.log('Données demande Reçu ++++++: ', response)
-
+                    await this.$modal.hide('demande');
+                    this.$toast.success("Message envoyé avec succès").goAway(3000)
                 }).catch((error) => {
                     console.log('Code error ++++++: ', error?.response?.data?.message)
                 }).finally(() => {
-                    console.log('Requette envoyé ')
+                    //alert('Message envoyé avec succès')
+                    
                 });
             },
         },
