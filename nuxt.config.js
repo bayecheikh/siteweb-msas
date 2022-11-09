@@ -56,12 +56,24 @@ export default {
     modules: [
         '@nuxtjs/style-resources',
         '@nuxtjs/axios',
+        '@nuxtjs/toast',
     ],
 
     axios: {
         baseURL: 'https://msas.ip3dev.com/api-msas/public/api',
     },
-
+    toast: {
+        position: 'top-center',
+        register: [ // Register custom toasts
+          {
+            name: 'my-error',
+            message: 'Oops...Something went wrong',
+            options: {
+              type: 'error'
+            }
+          }
+        ]
+    },
     styleResources: {
         scss: [
             '~/assets/scss/_variables.scss',
