@@ -10,29 +10,29 @@
                         <div class="contact-title mb-30">
                             <h2>Ecrivez-nous</h2>
                         </div>
-                        <form class="contact-form-style" method="post">
+                        <div class="contact-form-style">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <input name="firstname" placeholder="Prénom*" type="text" v-model="model.firstname" required>
+                                    <input name="firstname" placeholder="Prénom*" type="text" v-model="modelPreRempli.firstname" required>
                                 </div>
                                 <div class="col-lg-6">
-                                    <input name="lastname" placeholder="Nom*" type="text" v-model="model.lastname" required>
+                                    <input name="lastname" placeholder="Nom*" type="text" v-model="modelPreRempli.lastname" required>
                                 </div>
                                 <div class="col-lg-6">
-                                    <input name="email" placeholder="Email*" type="email" v-model="model.email">
+                                    <input name="email" placeholder="Email*" type="email" v-model="modelPreRempli.email">
                                 </div>
                                 <div class="col-lg-6">
-                                    <input name="telephone" placeholder="Téléphone*" type="number" v-model="model.telephone" required>
+                                    <input name="telephone" placeholder="Téléphone*" type="number" v-model="modelPreRempli.telephone" required>
                                 </div>
                                 <div class="col-lg-12">
-                                    <input name="subject" placeholder="Objet*" type="text" v-model="model.subject" required>
+                                    <input name="subject" placeholder="Objet*" type="text" v-model="modelPreRempli.subject" required>
                                 </div>
                                 <div class="col-lg-12">
-                                    <textarea name="message" placeholder="Votre Message*" v-model="model.message" required></textarea>
-                                    <button class="submit" type="submit" @click="submitDemande">ENVOYEZ</button>
+                                    <textarea name="message" placeholder="Votre Message*" v-model="modelPreRempli.message" required></textarea>
+                                    <button class="submit" @click="submitDemande">ENVOYEZ</button>
                                 </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -74,8 +74,8 @@
             },
             submitDemande(){
                 this.load=true
-                console.log('Données demande formulaire ++++++: ', {...this.model})
-                /* this.$axios.$post('/demandes')
+                console.log('Données demande formulaire ++++++: ', {...this.modelPreRempli})
+                this.$axios.$post('/ajoutDemande',{...this.modelPreRempli})
                 .then(async (response) => {
                     //this.$toast.success(response.message).goAway(2000)
                     console.log('Données demande Reçu ++++++: ', response)
@@ -84,7 +84,7 @@
                     console.log('Code error ++++++: ', error?.response?.data?.message)
                 }).finally(() => {
                     console.log('Requette envoyé ')
-                }); */
+                });
             },
         },
     };
