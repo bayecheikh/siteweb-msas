@@ -25,7 +25,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-7 col-md-7 col-sm-12 m-0 p-0" style="background-image: url('/img/slider/slide1.png');background-repeat: no-repeat; background-size: cover; min-height: 485px;">
+                        <div class="bg-slide-1-1 col-lg-7 col-md-7 col-sm-12 m-0 p-0" >
                         </div>
                     </div>
             </swiper-slide>
@@ -94,4 +94,5 @@
     };
 </script>
 <style scoped>
+
 </style>

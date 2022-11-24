@@ -50,6 +50,12 @@ letter-spacing: 0px;
   background-size: cover;
   background-repeat: no-repeat;
 }
+.bg-slide-1-1{
+  background-image: url("/img/slider/slide1.png");
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  min-height: 485px;
+}
 .custom-hr{ 
     height: 5px;  
     width: 100px; transition: none 0s ease 0s; 
