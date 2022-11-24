@@ -31,14 +31,11 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-7 col-md-7 col-sm-12 m-0 pt-15 pl-15 pb-30 d-flex flex-column align-items-center" style="background-color: #5e99f2;background-repeat: no-repeat; background-size: cover; min-height: 300px;">
+                <div class="col-lg-7 col-md-7 col-sm-12 m-0 pt-15 pl-15 pb-30 d-flex flex-column align-items-center carte" >
                     <div>
                         <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        viewBox="161 55 933.8 684" style="enable-background:new 161 55 933.8 684; height:400px;" xml:space="preserve" preserveAspectRatio="xMidYMid meet"
+                        viewBox="161 55 933.8 684" class="svg-carte" xml:space="preserve" preserveAspectRatio="xMidYMid meet"
                         pointer-events="auto">
-                        <style type="text/css">                   
-                            .st1{stroke:#000000;stroke-miterlimit:22.926;}
-                        </style>
                         <g class="regions">
                             
                         <path 
@@ -46,7 +43,7 @@
                                 class="lan" 
                                 title="Tamba" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -167,10 +164,10 @@
                             C824.6,687.7,824.8,687.1,825.4,687.1L825.4,687.1z"/>
                         <path 
                         id="kedougou" 
-                        class="lan" 
+                        class="lan cursor-pointer" 
                                 title="Kédougou" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -286,7 +283,7 @@
                         class="lan" 
                                 title="Diourbel" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -311,7 +308,7 @@
                         class="lan" 
                                 title="Kaolack" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -350,7 +347,7 @@
                         class="lan" 
                                 title="Kaffrine" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -390,7 +387,7 @@
                         class="lan" 
                                 title="Fatick" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -493,7 +490,7 @@
                         title="Dakar" 
                         class="lan" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -520,7 +517,7 @@
                         title="Thiès" 
                         class="lan" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -573,7 +570,7 @@
                         class="lan" 
                                 title="Saint-Louis" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -692,7 +689,7 @@
                         class="lan" 
                                 title="Louga" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -727,7 +724,7 @@
                         class="lan" 
                                 title="Matam" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -800,7 +797,7 @@
                         class="lan" 
                                 title="Kolda" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -864,7 +861,7 @@
                         title="ziguinchor" 
                         class="lan" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -929,7 +926,7 @@
                         title="Sédhiou" 
                         class="lan" 
                                 pointer-events="all" 
-                                style="cursor: pointer;" 
+                                 
                                 @mouseover="getInfo"
                                 @mouseout="isHovering = false" 
                                 stroke-width="1.8"
@@ -996,14 +993,17 @@
                         </svg>
                     </div>
                     <div class="description" v-if="isHovering==true" v-bind:style="styles">
-                        <span style="font-weight:600; font-size:26px;text-transform:capitalize; font-family:Arial, Helvetica, sans-serif;">{{title}}</span>
+                        <span class="description-1">{{title}}</span>
                         <br>
-                        <span>Engagement : </span><span style="font-weight:600; color: #12F44B; font-family:Arial, Helvetica, sans-serif;">{{Number(engagement).toLocaleString()}}</span>
+                        <span>Planification : </span><span class="engagement">{{Number(engagement).toLocaleString()}}</span>
                         <br>
-                        <span>Mobilisation : </span><span style="font-weight:600; color:#12F44B; font-family:Arial, Helvetica, sans-serif;">{{Number(mobilisation).toLocaleString()}}</span>                   
+                        <span>Mobilisation : </span><span class="mobilisation">{{Number(mobilisation).toLocaleString()}}</span>
+                        <br>  
+                        <span>Execution : </span><span class="engagement">{{Number(execution).toLocaleString()}}</span>                 
+                        <br>
                     </div>
                     <div class="my-2">
-                        <span style="font-weight:600; font-size:18px; color: #fff; text-transform:capitalize; font-family:Arial, Helvetica, sans-serif;">Pilier : {{titlePilier}} </span> 
+                        <span class="pilier">Pilier : {{titlePilier}} </span> 
                     </div>
                     
                 </div>
@@ -1123,6 +1123,18 @@
     };
 </script>
 <style scoped>
+.description-1{
+    font-weight:600; font-size:26px;text-transform:capitalize; font-family:Arial, Helvetica, sans-serif;
+}
+.engagement{
+    font-weight:600; color: #12F44B; font-family:Arial, Helvetica, sans-serif;
+}
+.mobilisation{
+    font-weight:600; color:#12F44B; font-family:Arial, Helvetica, sans-serif;
+}
+.pilier{
+    font-weight:600; font-size:18px; color: #fff; text-transform:capitalize; font-family:Arial, Helvetica, sans-serif;
+}
 path {
   fill: #ffffff;
   cursor: pointer;
@@ -1134,12 +1146,23 @@ path {
 path:hover {
   opacity: 0.85;
 }
+.carte{
+    background-color: #5e99f2;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height: 300px;
+}
+.svg-carte{
+    enable-background:new 161 55 933.8 684; height:400px;
+}
+.st1{stroke:#000000;stroke-miterlimit:22.926;}
 .lan {
   fill-opacity: 1;
   stroke: rgb(0, 0, 0);
   stroke-opacity: 1;
   stroke-miterlimit:22.926;
   stroke-width: 0.5;
+  cursor: pointer;
 }
 .descriptionPilier {
   position: absolute;
@@ -1157,8 +1180,9 @@ path:hover {
   background: rgba(0, 0, 0, 0.555);
   padding: 30px;
   padding-top: 10px;
+  padding-bottom: 10px;
   z-index: 5;
-  height: 130px;
+  height: 135px;
   line-height: 30px;
   margin: 0 auto;
   color: #ffffff;
