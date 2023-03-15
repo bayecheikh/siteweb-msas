@@ -36,7 +36,7 @@
                     
                     {
                         url: '/',
-                        title: 'Dimensions de la santé',
+                        title: 'Dimensions',
                         idSection: 'dimensionsdelasante',
                     },
                     {
@@ -94,7 +94,7 @@
                     behavior: "smooth",
                     top:8
                 });
-            },
+            }
         }
     }
 </script>

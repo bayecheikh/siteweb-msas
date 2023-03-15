@@ -17,7 +17,7 @@
                                 <div class="progress">
                                     <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
                                 </div>
-                                <p class="text-grey font-weight-600 font-roboto size-12">Execution</p>
+                                <p class="text-grey font-weight-600 font-roboto size-12">Planification</p>
                                 <div class="progress">
                                     <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
                                 </div>
@@ -25,7 +25,7 @@
                                 <div class="progress">
                                     <div class="progress-bar bg-vert" role="progressbar" style="width: 100%;" aria-valuenow="1000" aria-valuemin="0" aria-valuemax="100">100%</div>    
                                 </div>
-                                <p class="text-grey font-weight-600 font-roboto size-12">Engagement</p>
+                                <p class="text-grey font-weight-600 font-roboto size-12">Execution</p>
                             </div>        
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                             <div class="progress">
                                     <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
                             </div>
-                            <p class="text-grey font-weight-600 font-roboto size-12">Execute</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Planification</p>
                             <div class="progress">
                                 <div class="progress-bar bg-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>    
                             </div>
@@ -43,7 +43,7 @@
                             <div class="progress">
                                 <div class="progress-bar bg-jaune" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>    
                             </div>
-                            <p class="text-grey font-weight-600 font-roboto size-12">Engagement</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Execution</p>
                         </div>
                     </div>
                     <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
@@ -52,7 +52,7 @@
                             <div class="progress">
                                     <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
                             </div>
-                            <p class="text-grey font-weight-600 font-roboto size-12">Execute</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Planification</p>
                             <div class="progress">
                                 <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
                             </div>
@@ -60,7 +60,7 @@
                             <div class="progress">
                                 <div class="progress-bar bg-green" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>    
                             </div>
-                            <p class="text-grey font-weight-600 font-roboto size-12">Engagement</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Execution</p>
                         </div>
                     </div>
                     <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
@@ -69,7 +69,7 @@
                             <div class="progress">
                                     <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
                             </div>
-                            <p class="text-grey font-weight-600 font-roboto size-12">Execute</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Planification</p>
                             <div class="progress">
                                 <div class="progress-bar bg-vert" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>    
                             </div>
@@ -77,7 +77,7 @@
                             <div class="progress">
                                 <div class="progress-bar bg-vert" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>    
                             </div>
-                            <p class="text-grey font-weight-600 font-roboto size-12">Engagement</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Execution</p>
                         </div>
                     </div>
                     <div class="bg-white mb-3 col-md-2 col-lg-2 col-sm-12 p-0">
@@ -86,7 +86,7 @@
                             <div class="progress">
                                     <div class="progress-bar bg-rouge" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>    
                             </div>
-                            <p class="text-grey font-weight-600 font-roboto size-12">Execute</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Planification</p>
                             <div class="progress">
                                 <div class="progress-bar bg-jaune" role="progressbar" style="width: 57%;" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">57%</div>    
                             </div>
@@ -94,7 +94,7 @@
                             <div class="progress">
                                 <div class="progress-bar bg-vert" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>    
                             </div>
-                            <p class="text-grey font-weight-600 font-roboto size-12">Engagement</p>
+                            <p class="text-grey font-weight-600 font-roboto size-12">Execution</p>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ import BarChart from "~/components/BarChart.vue";
                             data: [3,7,4,4,5,6]
                         },
                         {
-                            label: "Engagement",
+                            label: "Execution",
                             backgroundColor: "#60C3FF",
                             data: [4,3,4,3,4,6]
                         }

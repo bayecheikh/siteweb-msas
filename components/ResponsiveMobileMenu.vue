@@ -44,7 +44,7 @@
                     
                     {
                         url: '/',
-                        title: 'Dimensions de la santé'
+                        title: 'Dimensions'
                     },
                 ]
             }

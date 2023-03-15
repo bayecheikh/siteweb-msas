@@ -12,7 +12,7 @@
                 <div class="col-md-4 col-lg-4 col-sm-12 custom-card-box border-right">
                     <div class="box d-flex flex-column align-items-start">
                         <p class="custom-sub-title text-blue font-weight-600">MOBILISATION DES RESSOURCES</p>
-                        <p>Elle est un processus intégré comprenant la planification stratégique pour absorber les écarts de financement, l’identification des opportunités sur la base d’une analyse de l’environnement externe et des capacités internes</p>
+                        <p>C'est un processus intégré comprenant la planification stratégique pour absorber les écarts de financement, l’identification des opportunités sur la base d’une analyse de l’environnement externe et des capacités internes</p>
                         <!--<a class="btn btn-outline-primary custom-text-btn pl-4 pr-4" href="#">Lire plus</a>-->
                     </div>
                 </div>
@@ -86,12 +86,17 @@ import BarChart from "~/components/BarChart.vue";
                     ],
                     datasets: [
                         {
+                            label: "Planification",
+                            backgroundColor: "#0034CC",
+                            data: [3,7,4,4,5,6]
+                        },
+                        {
                             label: "Mobilisation",
                             backgroundColor: "#0034CC",
                             data: [3,7,4,4,5,6]
                         },
                         {
-                            label: "Engagement",
+                            label: "Execution",
                             backgroundColor: "#728CD8",
                             data: [4,3,4,3,4,6]
                         }
@@ -130,13 +135,18 @@ import BarChart from "~/components/BarChart.vue";
                     labels: ["Etat", "PTF", "Collectivités territoriales(CT)","ONG et associations","Secteur privé sanitaire","Secteur privé non sanitaire"
                     ],
                     datasets: [
+                    {
+                            label: "Planification",
+                            backgroundColor: "#60C3FF",
+                            data: [3,7,4,4,5,6]
+                        },
                         {
                             label: "Mobilisation",
                             backgroundColor: "#60C3FF",
                             data: [3,7,4,4,5,6]
                         },
                         {
-                            label: "Engagement",
+                            label: "Execution",
                             backgroundColor: "#A2D4F2",
                             data: [4,3,4,3,4,6]
                         }
@@ -148,6 +158,11 @@ import BarChart from "~/components/BarChart.vue";
                     labels: ["Etat", "PTF", "Collectivités territoriales(CT)","ONG et associations","Secteur privé sanitaire","Secteur privé non sanitaire"
                     ],
                     datasets: [
+                    {
+                            label: "Planification",
+                            backgroundColor: "#3378E1",
+                            data: [3,7,4,4,5,6]
+                        },
                         {
                             label: "Mobilisation",
                             backgroundColor: "#3378E1",
